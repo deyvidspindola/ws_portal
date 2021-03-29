@@ -1,0 +1,24 @@
+127.0.0.1	localhost
+::1	localhost ip6-localhost ip6-loopback
+fe00::0	ip6-localnet
+ff00::0	ip6-mcastprefix
+ff02::1	ip6-allnodes
+ff02::2	ip6-allrouters
+172.27.0.2	599233f960c0
+
+172.16.19.2 parser-01.sascar-dc.br parser-01
+172.16.18.1     jmsfmw01-priv
+172.16.18.2     jmsfmw02-priv
+172.16.18.3     jmsfmw03-priv
+172.16.18.4     jmsfmw04-priv
+172.16.2.6      jmsfmw01-hml-priv
+172.16.2.7      jmsfmw02-hml-priv
+172.16.19.21    sascar.local sascar gvt-srv-dc1.sascar.local
+172.16.2.77     gvtsvdw-fnt01.sascar.local
+10.1.105.21     revgeowebdev1.sascar.com.br
+
+10.1.101.21     sjpsvhx-web01 sjpsvhx-web01.sascar.com.br
+10.1.101.21		hom-wsprotheus.sascar.com.br
+10.1.101.26		sas4-scan.sascar.com.br
+10.1.105.69     hom1.xmlrpc.sascar.com.br
+10.1.105.10     backendhom1.sascar.com.br
