@@ -1,0 +1,25 @@
+.data-intervalo {
+    width: 260px !important;
+}
+.data-intervalo .calendario {
+    width: 120px !important;
+}
+.data-intervalo .ate {
+    text-align: center;
+    width: 20px;
+    font: 11px Verdana, Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+}
+.float-left {
+    float: left;
+}
+tbody.agenda-icones td {
+    padding: 20px 0 20px !important;
+}
+tbody.agenda-icones img {
+    width: 32px;
+    height: 32px;
+}
+ul.ui-autocomplete {
+    width: 375px !important;
+}

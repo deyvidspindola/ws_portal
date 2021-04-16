@@ -1,0 +1,97 @@
+/*
+dom
+*/
+body {
+}
+td {
+    padding-top: 3px;
+}
+label {
+    margin-left:15px;
+}
+
+
+
+/*
+classes
+*/
+.campo_rel {
+    padding-left:5px;       
+}
+
+.celula_label {
+    width: 25%;
+}
+.celula_input {
+    width: 87%;
+}
+.celula_botao {
+    width: 13%;
+    padding-left: 3px;
+}
+.celula_relatorio {
+    width: 87%;
+    padding-left: 3px;
+}
+.campo1 {
+	width: 50%;
+}
+.botao1 {
+	vertical-align: top;
+}
+.moldura0 {
+    position: relative;
+    width: 98%;
+    border-width: 1px;
+    left: 50%;
+    margin-left: -49%;
+}
+.moldura1 {
+	position: relative;
+    width: 98%;
+    border-width: 1px;
+    left: 50%;
+    margin-left: -49%;
+}
+.moldura2 {
+    position: relative;
+    width: 98%;
+    border-width: 1px;
+    left: 50%;
+    margin-left: -49%;
+}
+.msg1 {
+	left: 20px;
+}
+.espaco1 {
+    width: 100%;
+}
+.espaco2 {
+    position: relative;
+    width: 98%;
+    border-width: 1px;
+    left: 1%;
+}
+.espaco_msg {	
+    width: 100%;
+    text-align: left;
+}
+.titulo0 {
+	text-align: left;
+}
+.espaco_relatorio {	
+    width: 100%;
+}
+
+
+/*
+ids
+*/
+#div_msg {
+    float: left;
+    margin-left: 15px;
+}
+#relatorio {
+	width: 100%;
+    text-align: left;
+}

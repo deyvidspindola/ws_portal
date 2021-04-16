@@ -1,0 +1,49 @@
+a.excluir {
+	width: 13px;
+	height: 12px;
+	display: inline-block;
+	background-image: url(../images/x1transparente.gif);
+	color: transparent;
+	cursor: pointer;
+}
+
+.botao {
+	padding: 0 10px;
+}
+a.botao, #bt_retornar {
+	padding: 2px 10px 3px;
+	text-decoration: none;
+	margin: 1px 0 0 0 !important;
+}
+.highlight {
+	background-color: #FFFFC0;
+}
+.erro-flash {
+	font-size: 16px;
+	font-weight: bold;
+	
+}
+#seecorpo {
+	width: 700px;
+	height: 500px;
+}
+#char-count {
+}
+.imagem-atual {
+    padding: 10px 0;
+}
+.imagem-atual strong {
+    font-weight: bold;
+}
+.excluir-imagem a {
+	width: 13px;
+	height: 12px;
+	display: inline-block;
+	background-image: url(../images/x1transparente.gif);
+	color: transparent;
+	cursor: pointer;
+}
+
+#bt_retornar {
+    margin-left: 5px !important;
+}

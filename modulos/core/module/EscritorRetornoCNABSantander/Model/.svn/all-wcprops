@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/intranet/!svn/ver/19982/trunk/modulos/core/module/EscritorRetornoCNABSantander/Model
+END
+EscritorSegmentoTRetornoCNABSantanderModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/intranet/!svn/ver/19982/trunk/modulos/core/module/EscritorRetornoCNABSantander/Model/EscritorSegmentoTRetornoCNABSantanderModel.php
+END
+EscritorSegmentoURetornoCNABSantanderModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/intranet/!svn/ver/19975/trunk/modulos/core/module/EscritorRetornoCNABSantander/Model/EscritorSegmentoURetornoCNABSantanderModel.php
+END
+EscritorTrailerLoteRetornoCNABSantanderModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/intranet/!svn/ver/19975/trunk/modulos/core/module/EscritorRetornoCNABSantander/Model/EscritorTrailerLoteRetornoCNABSantanderModel.php
+END
+EscritorComumCNABSantanderModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/intranet/!svn/ver/19982/trunk/modulos/core/module/EscritorRetornoCNABSantander/Model/EscritorComumCNABSantanderModel.php
+END
+EscritorTrailerArquivoRetornoCNABSantanderModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/intranet/!svn/ver/19975/trunk/modulos/core/module/EscritorRetornoCNABSantander/Model/EscritorTrailerArquivoRetornoCNABSantanderModel.php
+END
+EscritorHeaderLoteRetornoCNABSantanderModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/intranet/!svn/ver/19982/trunk/modulos/core/module/EscritorRetornoCNABSantander/Model/EscritorHeaderLoteRetornoCNABSantanderModel.php
+END
+EscritorHeaderArquivoRetornoCNABSantanderModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/intranet/!svn/ver/19982/trunk/modulos/core/module/EscritorRetornoCNABSantander/Model/EscritorHeaderArquivoRetornoCNABSantanderModel.php
+END

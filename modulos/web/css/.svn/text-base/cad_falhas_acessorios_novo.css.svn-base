@@ -1,0 +1,13 @@
+.loaging-circle {
+    display:none; 
+    margin: 6px 0 0 5px;     
+}
+
+.float-left {
+    float: left;
+}
+
+.div-loding {
+    text-align: center;
+    margin: 0 auto;
+}

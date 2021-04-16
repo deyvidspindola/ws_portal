@@ -1,0 +1,112 @@
+@media screen {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .p_form select, .p_form .selector {
+        width: 120px !important;
+    }
+
+    .ui_action_element_alt {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    #analitico {    
+        width: 1210px;            
+        overflow-x: scroll;
+    }
+
+    #resultado_analitico {
+        width: 100%;
+    }
+
+    #analitico table th, 
+    #analitico table td, 
+    #analitico .default_table tbody td {
+        font-size: 11px;
+    }
+
+    .result_foot tr td {
+        font-size: 11px;
+    }
+
+    .acessos {    
+        height: 20px;
+    }
+
+    #analitico tr td {
+        border-top: 1px solid #EEEEEE !important;
+        border-right: 1px solid #EEEEEE !important;   
+        vertical-align: top;     
+    }
+
+    #analitico tr.result td {        
+        white-space: nowrap !important;
+        height: 44px;
+    }
+
+    #analitico tfoot tr td {
+        padding: 10px 5px; 
+    }
+
+    #analitico .tableTituloColunas td {
+        text-align: center !important;
+        padding: 5px;      
+    }
+
+    #data_hora table thead {
+        margin: 10px 0 0 0;
+    }
+
+    #data_hora .result td {
+        text-align: center;
+    }
+
+    .hide {
+        display: none;    
+    }
+}
+
+@media print{
+    @page {
+        size: A4 portrait;
+        margin-left:0.0cm;
+        margin-right:0.0cm;        
+        writing-mode: tb-rl;              
+    }
+        
+    tr.tableTituloColunas td {        
+        font-size: 7px !important;
+        text-align: center;
+    }
+    
+    .result_foot tr td {        
+        height: 0px !important;
+    }
+    
+    #analitico tr.result td {        
+        white-space: normal;        
+    }
+
+    .acessos {
+        height: 120px;
+        border-bottom: 1px solid #333333; 
+    }
+    
+    tr td {
+        border: 1px solid #333333;     
+        vertical-align: top;     
+    }
+    
+    #resultado_analitico {
+        width: 100%;
+        height: 100%;
+        filter: progid:DXImageTransform.Microsoft.BasicImage(Rotation=3);
+    }
+    
+    .no-border {
+        border-bottom: 0 !important;        
+    } 
+}

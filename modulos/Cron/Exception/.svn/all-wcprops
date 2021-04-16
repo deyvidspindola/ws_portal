@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cron/Exception
+END
+AtualizacaoBaseCorreiosException.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cron/Exception/AtualizacaoBaseCorreiosException.php
+END
+CronException.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cron/Exception/CronException.php
+END
+ExceptionDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cron/Exception/ExceptionDAO.php
+END

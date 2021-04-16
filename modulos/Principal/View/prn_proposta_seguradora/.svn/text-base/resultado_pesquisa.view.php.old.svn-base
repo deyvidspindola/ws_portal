@@ -1,0 +1,122 @@
+<?
+                if($num_rows_resultado_pesquisa>0){ ?>
+                    
+        
+                    <table class="tableMoldura" id="resultado_pesquisa">
+                        <tr class="tableSubTitulo">
+                            <td>
+                            	<h2>Resultado da Pesquisa</h2>
+                            </td>
+                        </tr>
+                        <tr >
+                            <td>
+                            	&nbsp;<img src='images/icones/exclamationYellowTransparente.gif'   align="absmiddle" border="0"  >&nbsp;&nbsp;Verificação Manual
+                            </td>	
+                        </tr>
+                        <tr>
+                            <td align="center">
+                                <table width="100%">
+                                    <tr class="tableTituloColunas">
+                                        <td align="center" width='1%'><img src='images/icones/exclamationYellowTransparente.gif'   align="absmiddle" border="0"  ></td>
+                                        <td align="center"><h3>Solicitação</h3></td>
+                                        <td align="center"><h3>Segurado</h3></td>
+                                        <td align="center"><h3>Placa</h3></td>
+                                        <td align="center"><h3>Chassi</h3></td>
+                                        <td align="center"><h3>Proposta</h3></td>
+                                        <td align="center"><h3>Tipo Contrato</h3></td>
+                                        <?if($_SESSION['usuario']['depoid'] != 56){?>
+                                        <td align="center"><h3>Data Ultima Ação</h3></td>
+                                        <td align="center"><h3>Ultima Ação</h3></td>
+                                        <td align="center"><h3>Motivo</h3></td>
+                                        <td align="center"><h3>Usuário</h3></td>
+                                        <td align="center"><h3>Status</h3></td>
+                                        <?}?>
+                                    </tr>
+                                    
+                                    <?
+                                    for($i = 0; $i < pg_num_rows($resultado_pesquisa);$i++){
+                                        
+                                        $class      = ($class == 'tdc9')?'tde9':'tdc9';
+										?>                                            
+                                            <tr class="<?=$class;?>" onmouseout="this.className='<?=$class;?>'" onmouseover="this.className='<?=$class;?>Over'">
+
+                                                <td nowrap align="center">
+                                                    <?php $manual = pg_fetch_result($resultado_pesquisa,$i,"prpsverificacao_manual");?>
+                                                    <?php
+                                                    if($manual == 't')
+                                                    {
+                                                    ?>
+                                                    	<img src='images/icones/exclamationYellowTransparente.gif'   align="absmiddle" border="0"  >
+                                                    <?PHP	
+                                                    }
+                                                    ?>
+                                                </td>
+                                                
+                                                <td nowrap align="center">
+                                                    <?=pg_fetch_result($resultado_pesquisa,$i,"prpsdt_solicitacao");?>
+                                                </td>
+                                                
+                                                <td nowrap align="left">
+                                                    <?=pg_fetch_result($resultado_pesquisa,$i,"prpssegurado");?>
+                                                </td>
+                                                
+                                                <td align="center">
+                                                    <?=pg_fetch_result($resultado_pesquisa,$i,"veiplaca");?>
+                                                </td>
+                                                
+                                                <td align="center">
+                                                    <?=pg_fetch_result($resultado_pesquisa,$i,"prpschassi");?>
+                                                </td>
+                                                
+                                                <td align="center">
+                                                    
+                                                <?if($_SESSION['usuario']['depoid'] != 56){?>
+                                                    <a href='?acao=editar&id=<?=pg_fetch_result($resultado_pesquisa,$i,"prpsoid");?>'   target="_blank" ><?=pg_fetch_result($resultado_pesquisa,$i,"prpsproposta");?></a>                                               
+                                                <?} else {?>
+                                                    <a href="javascript:abre_historico(<?=pg_fetch_result($resultado_pesquisa,$i,"prpsoid")?>)"><?=pg_fetch_result($resultado_pesquisa,$i,"prpsproposta");?></a>
+                                                <?}?>
+                                                </td>
+                                                
+                                                <td align="center">
+                                                    <?=pg_fetch_result($resultado_pesquisa,$i,"tpcdescricao");?>
+                                                </td>
+
+                                                 <?if($_SESSION['usuario']['depoid'] != 56){?>
+                                                <td align="center">
+                                                    <?=pg_fetch_result($resultado_pesquisa,$i,"prpsdt_ultima_acao");?>
+                                                </td>
+                                                
+                                                <td align="center">
+                                                    <?=pg_fetch_result($resultado_pesquisa,$i,"prpsadescricao");?>
+                                                </td>
+
+                                                <td align="center">
+                                                    <?=pg_fetch_result($resultado_pesquisa,$i,"psmtdescricao");?>
+                                                </td>
+                                                
+                                                <td align="center">
+                                                    <?=pg_fetch_result($resultado_pesquisa,$i,"ds_login");?>
+                                                </td>
+                                                
+                                                <td align="center">
+                                                    <?=pg_fetch_result($resultado_pesquisa,$i,"prpssdescricao");?>
+                                                </td>
+                                                <?}?>
+                                                
+                                            </tr>
+                                            <?
+ 
+                                    } ?>
+                                    
+                                    <tr class="tableRodapeModelo1">
+                                        <td colspan="<?=pg_num_fields($resultado_pesquisa);?>" align="center">
+                                            <h3><?=$i-$desinstalacoes_sulamerica;?> registro(s) encontrado(s)</h3>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                    <?
+                } 
+                 ?>

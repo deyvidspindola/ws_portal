@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/intranet/!svn/ver/16831/trunk/modulos/core/module/Boleto/Project/src/OpenBoleto/Banco
+END
+Unicred.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/intranet/!svn/ver/13452/trunk/modulos/core/module/Boleto/Project/src/OpenBoleto/Banco/Unicred.php
+END
+Hsbc.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/intranet/!svn/ver/13452/trunk/modulos/core/module/Boleto/Project/src/OpenBoleto/Banco/Hsbc.php
+END
+Santander.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/intranet/!svn/ver/16831/trunk/modulos/core/module/Boleto/Project/src/OpenBoleto/Banco/Santander.php
+END
+BancoDoBrasil.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/intranet/!svn/ver/13452/trunk/modulos/core/module/Boleto/Project/src/OpenBoleto/Banco/BancoDoBrasil.php
+END
+Bradesco.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/intranet/!svn/ver/13452/trunk/modulos/core/module/Boleto/Project/src/OpenBoleto/Banco/Bradesco.php
+END
+Itau.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/intranet/!svn/ver/13452/trunk/modulos/core/module/Boleto/Project/src/OpenBoleto/Banco/Itau.php
+END
+Brb.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/intranet/!svn/ver/13452/trunk/modulos/core/module/Boleto/Project/src/OpenBoleto/Banco/Brb.php
+END
+Caixa.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/intranet/!svn/ver/13452/trunk/modulos/core/module/Boleto/Project/src/OpenBoleto/Banco/Caixa.php
+END
+CaixaSICOB.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/intranet/!svn/ver/13452/trunk/modulos/core/module/Boleto/Project/src/OpenBoleto/Banco/CaixaSICOB.php
+END

@@ -1,0 +1,16 @@
+ .hand{
+    cursor:pointer;
+}
+
+.detalhes{
+    background: #E4E9EB !important;
+}
+
+.lista-log {
+    margin: 6px 50px    ;
+}
+
+.tabela-log  {
+    border: 1px solid #94adc2;
+}
+

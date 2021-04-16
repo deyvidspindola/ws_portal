@@ -1,0 +1,281 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/intranet/!svn/ver/24112/trunk/modulos/Relatorio/DAO
+END
+RelPosicaoEstoqueDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelPosicaoEstoqueDAO.php
+END
+RelAcoesPortalTesteFrameworkDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelAcoesPortalTesteFrameworkDAO.class.php
+END
+RelIndicadorCancelamentoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelIndicadorCancelamentoDAO.php
+END
+RelDaTransacoesDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelDaTransacoesDAO.php
+END
+RelEnvioSmsRetornoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelEnvioSmsRetornoDAO.php
+END
+RelProdutosReservadosDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelProdutosReservadosDAO.php
+END
+RelLinhasReativacaoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelLinhasReativacaoDAO.php
+END
+RelAnaliseTratamentoOSDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelAnaliseTratamentoOSDAO.php
+END
+RelProdutosSolicitadosDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/intranet/!svn/ver/15323/trunk/modulos/Relatorio/DAO/RelProdutosSolicitadosDAO.php
+END
+RelEnvioEmailsEmLoteDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelEnvioEmailsEmLoteDAO.php
+END
+RelEnvioEmailsAutomaticosDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelEnvioEmailsAutomaticosDAO.php
+END
+RelTempoDeDirecaoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/intranet/!svn/ver/23676/trunk/modulos/Relatorio/DAO/RelTempoDeDirecaoDAO.php
+END
+RelAprovacaoCreditoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelAprovacaoCreditoDAO.php
+END
+RelCalculoDeslocamentoTecnicoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/intranet/!svn/ver/19406/trunk/modulos/Relatorio/DAO/RelCalculoDeslocamentoTecnicoDAO.php
+END
+RelConsumoSatelitalDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelConsumoSatelitalDAO.php
+END
+RelInstalacaoEquipamentoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelInstalacaoEquipamentoDAO.php
+END
+RelReportComercialDao.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelReportComercialDao.php
+END
+RelDownloadArquivoVendaDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelDownloadArquivoVendaDAO.php
+END
+RelEquipInstaladoSemSubscriptionDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelEquipInstaladoSemSubscriptionDAO.php
+END
+RelDataVencimentoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/intranet/!svn/ver/11931/trunk/modulos/Relatorio/DAO/RelDataVencimentoDAO.php
+END
+RelAnaliseControleFalhasDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelAnaliseControleFalhasDAO.php
+END
+RelSlaComprasDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelSlaComprasDAO.php
+END
+RelDescontosConcederDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelDescontosConcederDAO.php
+END
+RelSeriaisLancadosDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelSeriaisLancadosDAO.php
+END
+RelAtendimentoFrontEndDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/intranet/!svn/ver/12358/trunk/modulos/Relatorio/DAO/RelAtendimentoFrontEndDAO.php
+END
+RelSinalizacaoOsTecladoApagadoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelSinalizacaoOsTecladoApagadoDAO.php
+END
+RelCustoMedioProdutosDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelCustoMedioProdutosDAO.php
+END
+RelEstatisticasGsmDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelEstatisticasGsmDAO.class.php
+END
+RelFotosOrdemServicoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelFotosOrdemServicoDAO.php
+END
+RelLinhasDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/intranet/!svn/ver/24112/trunk/modulos/Relatorio/DAO/RelLinhasDAO.php
+END
+RelProdutoComSeguroDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelProdutoComSeguroDAO.php
+END
+RelAcoesPortalDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelAcoesPortalDAO.class.php
+END
+RelOcorrenciaNovoIrvCongeladoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelOcorrenciaNovoIrvCongeladoDAO.php
+END
+RelBoletagemMassivaDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelBoletagemMassivaDAO.php
+END
+RelAnaliseConsumoSatelitalDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/intranet/!svn/ver/24033/trunk/modulos/Relatorio/DAO/RelAnaliseConsumoSatelitalDAO.php
+END
+RelInsucessoDiscadorDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelInsucessoDiscadorDAO.php
+END
+RelAgingEquipamentosDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelAgingEquipamentosDAO.class.php
+END
+RelDirecionamentoSinalDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/intranet/!svn/ver/15181/trunk/modulos/Relatorio/DAO/RelDirecionamentoSinalDAO.php
+END
+RelIntegracaoMasterDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelIntegracaoMasterDAO.php
+END
+RelAnaliseTelemetriaDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/22332/trunk/modulos/Relatorio/DAO/RelAnaliseTelemetriaDAO.php
+END
+RelPaginaFuncaoUserDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/16524/trunk/modulos/Relatorio/DAO/RelPaginaFuncaoUserDAO.php
+END
+RelEmbarcadoresSegDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelEmbarcadoresSegDAO.class.php
+END
+RelEnvioResetEquipamentoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelEnvioResetEquipamentoDAO.php
+END
+RelDebitoAutomaticoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelDebitoAutomaticoDAO.php
+END
+RelAcompanhamentoOsDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelAcompanhamentoOsDAO.php
+END
+RelObrigacaoFinanceiraReajusteHistoricoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/DAO/RelObrigacaoFinanceiraReajusteHistoricoDAO.php
+END

@@ -1,0 +1,36 @@
+fieldset {
+    margin: 5px;
+    padding: 5px;
+    background: #ffffff;
+    border: 1px solid #C0C0C0;
+}
+
+fieldset legend {
+    padding: 0 5px 0 5px;
+}
+
+#mensagens_boleto {
+    width: 500px;
+}
+
+.mensagem_boleto {
+	margin-left: 5px;
+	margin-bottom: 1px;
+    padding: 4px;
+    border: 1px solid #000000;
+    font-style: italic;
+    min-height: 18px;
+}
+
+#mensagens_boleto input {
+    border: none !important;
+    width: 95%;
+}
+
+#arquivo_para {
+    width: 170px;
+}
+
+.btn_disabled {
+	background: #C0C0C0;
+}

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/intranet/!svn/ver/20675/trunk/modulos/TI/Action
+END
+TIVerificaObrigacaoDuplicadaController.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/intranet/!svn/ver/20675/trunk/modulos/TI/Action/TIVerificaObrigacaoDuplicadaController.class.php
+END
+TIAcompanhamentoSTIController.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/intranet/!svn/ver/11227/trunk/modulos/TI/Action/TIAcompanhamentoSTIController.class.php
+END
+TIParametrizacaoSmartAgenda.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/16216/trunk/modulos/TI/Action/TIParametrizacaoSmartAgenda.php
+END
+TIResetSenhaController.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/intranet/!svn/ver/11227/trunk/modulos/TI/Action/TIResetSenhaController.class.php
+END

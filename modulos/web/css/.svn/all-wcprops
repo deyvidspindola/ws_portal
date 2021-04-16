@@ -1,0 +1,317 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/intranet/!svn/ver/22448/trunk/modulos/web/css
+END
+cad_tipo_segmentacao.css
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/cad_tipo_segmentacao.css
+END
+rel_envio_reset_equipamento.css
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/rel_envio_reset_equipamento.css
+END
+rel_acompanhamento_os.css
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/rel_acompanhamento_os.css
+END
+cad_validades_equipamentos.css
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/cad_validades_equipamentos.css
+END
+cad_falhas_acessorios_novo.css
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/cad_falhas_acessorios_novo.css
+END
+cad_tipos_segmento_mercado.css
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/cad_tipos_segmento_mercado.css
+END
+cad_equipamento_projeto.css
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/cad_equipamento_projeto.css
+END
+cad_motivos_materiais.css
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/intranet/!svn/ver/22448/trunk/modulos/web/css/cad_motivos_materiais.css
+END
+cad_importacao_fipe.css
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/cad_importacao_fipe.css
+END
+cad_controle_falhas.css
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/cad_controle_falhas.css
+END
+ges_layout.css
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/ges_layout.css
+END
+prn_agendamento_unitario.css
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/prn_agendamento_unitario.css
+END
+cad_acao_os.css
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/cad_acao_os.css
+END
+fin_gera_nf_boleto_grafica.css
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/fin_gera_nf_boleto_grafica.css
+END
+fin_parametros_faturamento.css
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/fin_parametros_faturamento.css
+END
+fin_boletagem_massiva.css
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/fin_boletagem_massiva.css
+END
+cad_layout_emails.css
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/cad_layout_emails.css
+END
+rel_produtos_reservados.css
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/rel_produtos_reservados.css
+END
+cad_equipamentos_materiais.css
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/intranet/!svn/ver/22448/trunk/modulos/web/css/cad_equipamentos_materiais.css
+END
+rel_linhas.css
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/rel_linhas.css
+END
+cad_layout_kit_boas_vinda.css
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/cad_layout_kit_boas_vinda.css
+END
+fin_credito_futuro_parametrizacao_aba_email_aprovacao.css
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/fin_credito_futuro_parametrizacao_aba_email_aprovacao.css
+END
+man_tempo_minimo_servico.css
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/intranet/!svn/ver/15604/trunk/modulos/web/css/man_tempo_minimo_servico.css
+END
+fin_comissao_indicador.css
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/fin_comissao_indicador.css
+END
+prn_modificacao_contrato.css
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/prn_modificacao_contrato.css
+END
+cad_questionario_pos_venda.css
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/cad_questionario_pos_venda.css
+END
+fin_importacao_status_contratro.css
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/fin_importacao_status_contratro.css
+END
+cad_cliente.css
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/cad_cliente.css
+END
+cad_nf_atendimento.css
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/cad_nf_atendimento.css
+END
+rel_data_vencimento.css
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/intranet/!svn/ver/11895/trunk/modulos/web/css/rel_data_vencimento.css
+END
+rel_nf_entrada.css
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/rel_nf_entrada.css
+END
+rel_posicao_estoque.css
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/rel_posicao_estoque.css
+END
+fin_rescisao.css
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/intranet/!svn/ver/18603/trunk/modulos/web/css/fin_rescisao.css
+END
+man_parametrizacao_ura.css
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/man_parametrizacao_ura.css
+END
+rel_atendimento_front_end.css
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/rel_atendimento_front_end.css
+END
+cad_alcada_aprovacao.css
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/cad_alcada_aprovacao.css
+END
+cad_entradanf.style.css
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/intranet/!svn/ver/12573/trunk/modulos/web/css/cad_entradanf.style.css
+END
+prn_solicitacao_vivo.css
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/prn_solicitacao_vivo.css
+END
+fin_da_parametros.css
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/fin_da_parametros.css
+END
+rel_linhas_reativacao.css
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/rel_linhas_reativacao.css
+END
+prn_termo_aditivo_servico.css
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/prn_termo_aditivo_servico.css
+END
+cad_configuracao_equipamento.css
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/cad_configuracao_equipamento.css
+END
+cad_interv_posicionamento_equipamentos.css
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/cad_interv_posicionamento_equipamentos.css
+END
+rel_envio_emails_em_lote.css
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/rel_envio_emails_em_lote.css
+END
+cad_atendimento_pronta_resposta.css
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/cad_atendimento_pronta_resposta.css
+END
+fin_retorno_cobranca_registrada.css
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/fin_retorno_cobranca_registrada.css
+END
+cad_valores_minimos_faturamento.css
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/cad_valores_minimos_faturamento.css
+END
+rel_envio_emails_automaticos.css
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/rel_envio_emails_automaticos.css
+END
+rel_calculo_deslocamento_tecnico.css
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/intranet/!svn/ver/12737/trunk/modulos/web/css/rel_calculo_deslocamento_tecnico.css
+END
+cad_info_controle_falhas.css
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/cad_info_controle_falhas.css
+END
+man_custos_apagar.css
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/intranet/!svn/ver/16371/trunk/modulos/web/css/man_custos_apagar.css
+END
+fin_rel_contratos_revenda_atraso.css
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/intranet/!svn/ver/11227/trunk/modulos/web/css/fin_rel_contratos_revenda_atraso.css
+END

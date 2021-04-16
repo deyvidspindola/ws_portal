@@ -1,0 +1,215 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/intranet/!svn/ver/23682/trunk/modulos/Principal/DAO
+END
+CadRequisicaoViagemDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11227/trunk/modulos/Principal/DAO/CadRequisicaoViagemDAO.php
+END
+PrnDebitoAutomaticoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11227/trunk/modulos/Principal/DAO/PrnDebitoAutomaticoDAO.php
+END
+RMSAprovadorDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/intranet/!svn/ver/11227/trunk/modulos/Principal/DAO/RMSAprovadorDAO.php
+END
+PrnCockpitAgendamentoOsDao.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/intranet/!svn/ver/11227/trunk/modulos/Principal/DAO/PrnCockpitAgendamentoOsDao.php
+END
+AnaliseKitOrdemServico.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/16216/trunk/modulos/Principal/DAO/AnaliseKitOrdemServico.php
+END
+PrnBoletoSecoDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/15336/trunk/modulos/Principal/DAO/PrnBoletoSecoDAO.class.php
+END
+PrnSeguradoraTokioMarineDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/intranet/!svn/ver/11227/trunk/modulos/Principal/DAO/PrnSeguradoraTokioMarineDAO.class.php
+END
+PrnModificacaoContratoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/intranet/!svn/ver/13482/trunk/modulos/Principal/DAO/PrnModificacaoContratoDAO.php
+END
+AtivacaoEquipamentoIvecoClienteDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/intranet/!svn/ver/11227/trunk/modulos/Principal/DAO/AtivacaoEquipamentoIvecoClienteDAO.php
+END
+PrnManutencaoFormaCobrancaClienteDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/intranet/!svn/ver/19871/trunk/modulos/Principal/DAO/PrnManutencaoFormaCobrancaClienteDAO.php
+END
+prnBackofficeDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/intranet/!svn/ver/23682/trunk/modulos/Principal/DAO/prnBackofficeDAO.php
+END
+PrnHistoricoStatusTermoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/intranet/!svn/ver/11227/trunk/modulos/Principal/DAO/PrnHistoricoStatusTermoDAO.php
+END
+PrnOrdermServicoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/intranet/!svn/ver/23158/trunk/modulos/Principal/DAO/PrnOrdermServicoDAO.php
+END
+PrnDaDO.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/intranet/!svn/ver/11227/trunk/modulos/Principal/DAO/PrnDaDO.php
+END
+PrnPropostaSeguradoraDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/intranet/!svn/ver/11227/trunk/modulos/Principal/DAO/PrnPropostaSeguradoraDAO.php
+END
+PrnRegraAberturaOsDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/intranet/!svn/ver/11227/trunk/modulos/Principal/DAO/PrnRegraAberturaOsDAO.php
+END
+PrnLogAlteracaoSinalGerenciadoraDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/intranet/!svn/ver/15239/trunk/modulos/Principal/DAO/PrnLogAlteracaoSinalGerenciadoraDAO.php
+END
+PrnContratoReativacaoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/intranet/!svn/ver/11227/trunk/modulos/Principal/DAO/PrnContratoReativacaoDAO.php
+END
+PrnGestaoFrotaContratoVivoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/intranet/!svn/ver/11227/trunk/modulos/Principal/DAO/PrnGestaoFrotaContratoVivoDAO.php
+END
+PrnAgendamentoUnitarioDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/intranet/!svn/ver/22584/trunk/modulos/Principal/DAO/PrnAgendamentoUnitarioDAO.php
+END
+PrnSolicitacaoVivoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/intranet/!svn/ver/11227/trunk/modulos/Principal/DAO/PrnSolicitacaoVivoDAO.php
+END
+AtivacaoSegundoBuzzerDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/intranet/!svn/ver/14772/trunk/modulos/Principal/DAO/AtivacaoSegundoBuzzerDAO.php
+END
+ServicoEnvioEmailDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/intranet/!svn/ver/11227/trunk/modulos/Principal/DAO/ServicoEnvioEmailDAO.php
+END
+PrnUploadFotografiaOS.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/intranet/!svn/ver/11227/trunk/modulos/Principal/DAO/PrnUploadFotografiaOS.php
+END
+PrnRelacionamentoClienteDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/intranet/!svn/ver/11227/trunk/modulos/Principal/DAO/PrnRelacionamentoClienteDAO.php
+END
+PrnTermoAditivoServicoDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/intranet/!svn/ver/23477/trunk/modulos/Principal/DAO/PrnTermoAditivoServicoDAO.class.php
+END
+PrnImobilizadoDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/22920/trunk/modulos/Principal/DAO/PrnImobilizadoDAO.class.php
+END
+PrnMigracaoLoteDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/intranet/!svn/ver/11227/trunk/modulos/Principal/DAO/PrnMigracaoLoteDAO.php
+END
+PrnPreCadastroDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/intranet/!svn/ver/18039/trunk/modulos/Principal/DAO/PrnPreCadastroDAO.php
+END
+PrnContratoServicosDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11227/trunk/modulos/Principal/DAO/PrnContratoServicosDAO.php
+END
+PrnParametrosSiggoDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/intranet/!svn/ver/11227/trunk/modulos/Principal/DAO/PrnParametrosSiggoDAO.class.php
+END
+PrnBemConsumoDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11227/trunk/modulos/Principal/DAO/PrnBemConsumoDAO.class.php
+END
+PrnImpEquipamentoSbtecDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/intranet/!svn/ver/11227/trunk/modulos/Principal/DAO/PrnImpEquipamentoSbtecDAO.class.php
+END
+PrnDadosCobrancaDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/intranet/!svn/ver/11863/trunk/modulos/Principal/DAO/PrnDadosCobrancaDAO.php
+END
+PrnClienteDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/intranet/!svn/ver/19891/trunk/modulos/Principal/DAO/PrnClienteDAO.php
+END

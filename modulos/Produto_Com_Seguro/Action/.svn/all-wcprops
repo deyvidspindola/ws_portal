@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/intranet/!svn/ver/15582/trunk/modulos/Produto_Com_Seguro/Action
+END
+IntegracaoSeguradora.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/intranet/!svn/ver/12844/trunk/modulos/Produto_Com_Seguro/Action/IntegracaoSeguradora.class.php
+END
+ProdutoComSeguro.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/intranet/!svn/ver/15582/trunk/modulos/Produto_Com_Seguro/Action/ProdutoComSeguro.php
+END
+SeguroProposta.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/intranet/!svn/ver/11227/trunk/modulos/Produto_Com_Seguro/Action/SeguroProposta.class.php
+END
+SeguroCotacao.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/intranet/!svn/ver/11227/trunk/modulos/Produto_Com_Seguro/Action/SeguroCotacao.class.php
+END
+SeguroApolice.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/intranet/!svn/ver/11333/trunk/modulos/Produto_Com_Seguro/Action/SeguroApolice.class.php
+END

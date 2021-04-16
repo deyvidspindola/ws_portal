@@ -1,0 +1,476 @@
+<?php
+/**
+ * Sascar - Sistema Corporativo
+ *
+ * LICENSE
+ *
+ * Sascar Tecnologia Automotiva S/A - Todos os Direitos Reservados
+ *
+ * @author Leandro A. Ivanaga <leandroivanaga@brq.com>
+ * @version 25/11/2013
+ * @since 25/11/2013
+ * @package Core
+ * @subpackage Classe Controladora de Titulo Cobranca
+ * @copyright Copyright (c) Sascar Tecnologia Automotiva S/A (http://www.sascar.com.br)
+ */
+
+
+namespace module\TituloCobranca;
+
+use infra\ComumController,
+	infra\Helper\Response,
+    infra\Helper\Mascara,
+    infra\Helper\Validacao,    
+    module\TituloCobranca\TituloCobrancaModel as Modelo;
+    
+    //module\Contrato\ContratoService as Contrato;
+    //module\Veiculo\VeiculoService as Veiculo,
+    //module\Cliente\ClienteService as Cliente;
+
+include _SITEDIR_ . 'boleto_funcoes.php';
+
+require_once _MODULEDIR_.'Principal/Action/PrnBoletoSeco.class.php';
+require_once _MODULEDIR_.'Principal/Action/PrnManutencaoFormaCobrancaCliente.php';
+require_once _MODULEDIR_.'Financas/Action/FinFaturamentoCartaoCredito.class.php';
+require_once _MODULEDIR_.'Principal/Action/PrnRelacionamentoCliente.php';
+
+
+class TituloCobrancaController extends ComumController{
+    
+    public $model;
+    public $response;
+    public $classeBoletoExterna;
+    public $classeManutencaoCobrancaExterna;
+    public $classeFaturamentoCartaoExterna;
+    public $classeRelacionamentoClienteExterna;
+    
+    /**
+     * Contrutor da classe
+     * 
+     * @author Leandro A. Ivanaga <leandroivanaga@brq.com>
+     * @version 25/11/2013
+     * @param none
+     * @return none
+     */
+    public function __construct(){
+        $this->model = new Modelo();
+        $this->response = new Response();
+        
+        // Classe de geração do arquivo boleto e envio
+     	$classeBoleto = "PrnBoletoSeco";
+     	$this->classeBoletoExterna = new $classeBoleto();
+     	
+     	// Classe de busca de informações referentes a forma de cobranca do cliente
+     	$classeManutencaoCobranca = "PrnManutencaoFormaCobrancaCliente";
+     	$this->classeManutencaoCobrancaExterna = new $classeManutencaoCobranca();
+     	
+     	// Classe realiza pagamento da taxa para a forma de pagamento como cartão de crédito
+     	$classeFaturamentoCartao = "FinFaturamentoCartaoCredito";
+     	$this->classeFaturamentoCartaoExterna = new $classeFaturamentoCartao();
+     	
+     	// Classe que realiza envio da confirmação do pagamento quando forma como cartão de credito
+     	$classeRelacionamentoCliente = "PrnRelacionamentoCliente";
+     	$this->classeRelacionamentoClienteExterna = new $classeRelacionamentoCliente();
+     	
+    }
+    
+    // MÉTODOS RELACIONADOS A TITULO DE COBRANCA (GERACAO DE TITULO, ENVIOS)
+ 
+	/**
+     * Gera a taxa (ex: taxa de instalacao) (BOLETO)
+     *
+     * @author Leandro A. Ivanaga <leandroivanaga@brq.com>
+     * @version 26/11/2013
+     * @param int $prpoid (ID da proposta)
+	 * @param int $usuoid (ID do usuario)
+	 * @param int $clioid (ID do cliente)
+	 * @param array $numContratos (array com o numero dos contratos)
+     * @param array $dadosTaxa (dados da taxa: valor_total, valor_item, descricao, id_obrigacao_financeira, qtd_item,etc)
+     * 
+     */
+    
+     public function geraTaxaBoleto($prpoid=0, $usuoid=0, $clioid=0, $numContratos=array(), $dadosTaxa=array()) {
+    	
+     	$teveErro = false;
+     	
+		$this->model->tituloCobrancaDAO->startTransaction();
+     	
+     	$camposObrigatoriosTaxa = array('taxa_valor_total', 'taxa_valor_item', 'taxa_qntd_parcelas', 
+     									'taxa_id_obrigacao', 'taxa_descricao_obrigacao','taxa_forma_pagamento', 
+     									'taxa_data_vencimento', 'taxa_num_parcela');
+     	
+     	$prpoid = Mascara::inteiro($prpoid);
+     	$usuoid = Mascara::inteiro($usuoid);
+		$clioid = Mascara::inteiro($clioid);
+
+     	if($prpoid > 0 && $usuoid > 0 && $clioid > 0){
+     		
+     		// Verifica se foi informado o(s) contrato(s)
+     		if (!is_array($numContratos) || count($numContratos) < 1){
+     			$this->response->setResult(false, 'INF005');
+     			$teveErro = true;
+     		}
+     		
+     		// Verifica se foi informado todos os dados referente a taxa
+     		$exists = $this->verificaCampos($camposObrigatoriosTaxa, $dadosTaxa);
+     		if (!is_array($dadosTaxa) || $exists === false){
+     			$this->response->setResult(false, 'INF005');
+     			$teveErro = true;
+     		}
+     		
+     		// Armazenar o titulo cobranca (tabela titulo_retencao)
+     		$retTitoid = $this->model->insertTituloRetencao($prpoid, $usuoid, $clioid, $numContratos, $dadosTaxa);
+     		
+     		// Se o retorno foi false, houve erro na criação do titulo
+     		if ($retTitoid === false){
+				$this->response->setResult(false, 'INF005');
+				$teveErro = true;
+     		} else {
+     			// GERAR O NOSSO NUMERO (HSBC) 
+     			// SÓ É REALIZADO APÓS INSERÇÃO DO TITULO, POIS UTILIZA O MESMO COMO UM DOS PARAMETROS
+     			
+     			$data_venc = explode('-', $dadosTaxa['taxa_data_vencimento']);
+     			$data_venc = array_reverse($data_venc);
+     			$data_venc = implode('-', $data_venc);
+     			
+     			$codigo_cedente= 3471241;
+     			$nossonum_com_DV = montaNossoNumeroHSBC($retTitoid, $data_venc, $codigo_cedente);
+     			
+     			$retTitoid = $this->model->updateNossoNumeroTituloRetencao($retTitoid, $nossonum_com_DV);
+     			
+     			// Erro ao salvar o nosso numero gerado para o titulo
+	     		if ($retTitoid === false){
+					$this->response->setResult(false, 'INF005');
+					$teveErro = true;
+	     		}
+     		}
+     		
+     		// Armazenar o registro da taxa na tabela de controle de envio (tabela titulo_controle_envio)
+     		$retTituloControle = $this->model->insertTituloControle($retTitoid, $numContratos[0]);
+     		
+     		// Verifica se houve erro ao salvar o controle para o titulo
+     		if ($retTituloControle === false){
+     			$this->response->setResult(false, 'INF005');
+     			$teveErro = true;
+     		}
+     		
+     		// Gera o arquivo (PDF)
+     		$arquivoBoleto = $this->classeBoletoExterna->gerarBoletoSeco($retTitoid, $numContratos[0]);
+			if (strlen($arquivoBoleto) == 0){
+				$this->response->setResult(false, 'INF005');
+				$teveErro = true;
+			}
+			
+     		// Realiza envio do boleto
+	        $retEnvio = $this->classeBoletoExterna->enviarBoleto($prpoid, $retTitoid, $arquivoBoleto);
+     	
+			$this->response->setResult($retTitoid, '0');
+     	} else{
+    		$this->response->setResult(false, 'INF005');
+    		$teveErro = true;
+    	}
+    	
+    	if($teveErro){
+    		// Rollback Transaction
+    		$this->model->tituloCobrancaDAO->rollbackTransaction();
+    		// Código e mensagem de retorno
+    	}else{
+    		// Commit Transaction
+    		$this->model->tituloCobrancaDAO->commitTransaction();
+    		
+    	}
+    	
+    	// Código e mensagem de retorno
+    	return $this->response;
+     }
+    
+     
+     /**
+     * Gera a taxa (ex: taxa de instalacao) (BOLETO)
+     *
+     * @author Leandro A. Ivanaga <leandroivanaga@brq.com>
+     * @version 26/11/2013
+     * @param int $prpoid (ID da proposta)
+	 * @param int $usuoid (ID do usuario)
+	 * @param int $clioid (ID do cliente)
+	 * @param array $numContratos (array com o numero dos contratos)
+     * @param array $dadosTaxa (dados da taxa: valor_total, valor_item, descricao, id_obrigacao_financeira, qtd_item,etc)
+     * 
+     */
+    
+     public function geraTaxaCartao($prpoid=0, $usuoid=0, $clioid=0, $numContratos=array(), $dadosTaxa=array()) {
+    	
+     	$teveErro = false;
+     	
+		$this->model->tituloCobrancaDAO->startTransaction();
+		
+     	$camposObrigatoriosTaxa = array('taxa_valor_total', 'taxa_valor_item', 'taxa_qntd_parcelas', 
+     									'taxa_id_obrigacao', 'taxa_descricao_obrigacao','taxa_forma_pagamento', 
+     									'taxa_data_vencimento', 'taxa_num_parcela', 'taxa_num_cartao',
+     									'taxa_data_validade_cartao', 'taxa_codigo_seguranca'
+     								);
+     	
+     	$prpoid = Mascara::inteiro($prpoid);
+     	$usuoid = Mascara::inteiro($usuoid);
+		$clioid = Mascara::inteiro($clioid);
+
+     	if($prpoid > 0 && $usuoid > 0 && $clioid > 0){
+     		
+     		// Verifica se foi informado o(s) contrato(s)
+     		if (!is_array($numContratos) || count($numContratos) < 1){
+     			$this->response->setResult(false, 'INF005');
+     			$teveErro = true;
+     		}
+     		
+     		// Verifica se foi informado todos os dados referente a taxa
+     		$exists = $this->verificaCampos($camposObrigatoriosTaxa, $dadosTaxa);
+     		if (!is_array($dadosTaxa) || $exists === false){
+     			$this->response->setResult(false, 'INF005');
+     			$teveErro = true;
+     		}
+     		
+     		// Salva os dados de pagamento
+     		$retSalvaDadosPagamento = $this->classeManutencaoCobrancaExterna->confirmarFormaPagamento();
+     		if ($retSalvaDadosPagamento['error'] === true){
+     			// Erro para armazenar os dados de pagamento
+     			
+     			$this->response->setResult(false, 'INF005');
+     			$teveErro = true;
+     		} else {
+     			
+     			// Armazenar o titulo cobranca (tabela titulo)
+	     		$retTitoid = $this->model->insertTitulo($prpoid, $usuoid, $clioid, $numContratos, $dadosTaxa);
+	     		
+	     		if ($retTitoid === false){
+	     			// Se o retorno foi false, houve erro na criação do titulo
+					$this->response->setResult(false, 'INF005');
+					$teveErro = true;
+	     		} else{
+		     		// Realizar chamada para pagamento do titulo com cartao de credito
+		     		$authorizedId = $this->classeManutencaoCobrancaExterna->buscarAutorizadora($dadosTaxa['taxa_forma_pagamento']);
+		     		
+		     		$pagaTituloCartao = $this->classeFaturamentoCartaoExterna->processarPagamentoParcelado
+		     									($clioid, 
+		     									$retTitoid, 
+		     									$dadosTaxa['taxa_valor_total'], 
+		     									$dadosTaxa['taxa_data_vencimento'],
+												$dadosTaxa['taxa_qntd_parcelas'], 
+												$authorizedId, 
+												$dadosTaxa['taxa_num_cartao'], 
+												$dadosTaxa['taxa_data_validade_cartao'], 
+												$dadosTaxa['taxa_codigo_seguranca']
+										);
+		     		
+								
+					if($pagaTituloCartao['resposta'] != 'OK' || empty($pagaTituloCartao)){
+						// Não foi possivel realizar pagamento do titulo, rollback no titulo
+						// Não deve ficar armazenado o titulo quando não foi possivel realizar o pagamento
+						$teveErro = true;
+					}else {
+						
+						// Enviar email para o cliente informando o sucesso no pagamento da taxa de instalação
+						$retornoRelacionamento = $this->classeRelacionamentoClienteExterna->enviaEmailConfirmacaoPagamento($prpoid, $numContratos[0]);
+				                       		
+						if ($retornoRelacionamento == true){
+							$emailRelacionamento = true;
+						}
+					}
+	     		}
+     		}
+	        $this->response->setResult($retTitoid, '0');
+     	} else{
+    		$this->response->setResult(false, 'INF005');
+    		$teveErro = true;
+    	}
+    	
+    	if($teveErro){
+    		// Rollback Transaction e rollback do titulo, garantindo que nao fique na base sem ter realizado o pagamento
+    		
+    		if ($retTitoid > 0){
+    			$rollbackTitulo = $this->model->rollbackTitulo($retTitoid);
+    		}
+    		$this->model->tituloCobrancaDAO->rollbackTransaction();
+    		
+    		// Código e mensagem de retorno
+    	}else{
+    		// Commit Transaction
+    		$this->model->tituloCobrancaDAO->commitTransaction();
+    	}
+    	
+    	// Código e mensagem de retorno
+    	return $this->response;
+     }
+    
+    /**
+     * Seta os dados da taxa de instalação.
+     *
+     * @author Leandro A. Ivanaga <leandroivanaga@brq.com>
+     * @version 25/11/2013
+	 * @param int $prpoid (ID da proposta)
+     * @param array $propostaPagamentoTaxaInstalacaoArray (array contendo as informações da taxa de instalação)
+     * @return response ($response->dados = array/false)
+     */
+    
+    // public function setaTaxaInstalacao($prpoid, $propostaPagamentoTaxaInstalacaoArray=array()) {
+    	
+     	/*
+     	$prpoid = Mascara::inteiro($prpoid);
+    	$usuoid = Mascara::inteiro($usuoid);
+    	$prospritoid = strtolower(trim($prospritoid));
+    	
+    	if($prpoid > 0 && $usuoid > 0 && $prospritoid != '' && !empty($propostaOpcionalArray)){
+    		$obrigatorio = array('prosobroid', 'prosvalor', 'prosvalor_agregado_monitoramento');
+    		$exists      = false;
+    		
+    		//Verificando se os campos obrigatorios existem
+    		$exists = $this->verificaCampos($obrigatorio, $propostaOpcionalArray);
+    		
+    		if($exists){
+    			$obrigacaoFinanceira = $this->model->propostaObrigacaoFinanceiraGetDados($propostaOpcionalArray['prosobroid']);
+    			$obrvl_obrigacao = 0;
+    			$prosvalor = (float) $propostaOpcionalArray['prosvalor'];
+    			
+    			if(is_array($obrigacaoFinanceira)){    				
+    				$obrvl_obrigacao = (float) $obrigacaoFinanceira['obrvl_obrigacao']; 				   				
+    			}
+    			
+    			if($propostaOpcionalArray['prosvalor_agregado_monitoramento'] === true){
+    				$prosdesconto = $obrvl_obrigacao;
+    				$prosvalor = 0;
+    				$propostaOpcionalArray['prosvalor_agregado_monitoramento'] = 't';
+    			} else{
+    				$prosdesconto = $obrvl_obrigacao - $prosvalor;
+    				$propostaOpcionalArray['prosvalor_agregado_monitoramento'] = 'f';
+    			}
+    			
+    			if($prosdesconto < 0){
+    				$prosdesconto = 0;
+    			}
+    			    			
+    			$propostaOpcionalArray['prossituacao'] = 'M';
+    			$propostaOpcionalArray['prosqtde'] = 1;
+    			$propostaOpcionalArray['prosvalor_tabela'] = $obrvl_obrigacao;
+    			$propostaOpcionalArray['prosdesconto'] = $prosdesconto;
+    			$propostaOpcionalArray['prosinstalar'] = 'f';
+    			$propostaOpcionalArray['prosvalor'] = $prosvalor;
+    			
+    			$resultSet = $this->model->propostaOpcionalInsert($prpoid, $usuoid, $prospritoid, $propostaOpcionalArray);
+    			
+    			if($resultSet !== false){
+    				$this->response->setResult($resultSet, 'PRP037');
+    			} else{
+    				$this->response->setResult(false, 'PRP036');
+    			}
+    		} else{
+    			$this->response->setResult(false, 'INF003');
+    		}
+    	} else{
+    		$this->response->setResult(false, 'INF005');
+    	}
+    	
+    	return $this->response;
+    }
+    */
+    
+    //}
+    
+    
+    
+    /**
+     * Gera a taxa de instalação referente a proposta.
+     *
+     * @author Leandro A. Ivanaga <leandroivanaga@brq.com>
+     * @version 25/11/2013
+	 * @param int $prpoid (ID da proposta)
+     * @return response ($response->dados = array/false)
+     */
+
+     		
+     		/*
+     public function geraTaxaInstalacao($prpoid=0) {
+    	
+     	$prpoid = Mascara::inteiro($prpoid);
+    	$vDadosTaxaInstalacao = array();
+     	
+     	
+     	if($prpoid > 0){
+    		
+     		// Verificar se a proposta deve possuir taxa de instalação (proposta do tipo varejo)
+     		// Tipo proposta não esta parametrizada a taxa de instalacao, retorna ao fluxo principal
+     		if ($this->model->verificarProposta($prpoid) === false){
+     			return false;
+     		}
+     		
+     		
+     		// Verificar se possui taxa de instalacao paga ou não houve alteração dos valores
+     		// Caso verdadeiro voltar ao fluxo principal
+     		
+     		// Se houver alteração dos valores da taxa de instalação, cancelar o titulo ativo
+     		
+     		
+     		// Buscar dados da taxa de instalacao
+			$vDadosTaxaInstalacao = $this->model->buscaDadosTaxaInstalacao($prpoid);
+     		
+			// Verificar se esta cadastrado corretamente os valores referente a taxa de instalacao
+			if (!is_array($vDadosTaxaInstalacao) || $this->verificaCamposPossuiConteudo($vDadosTaxaInstalacao) === false){
+				
+				// Caso não tenha retornado um array ou algum valor não cadastrado, retorna o erro
+				$this->response->setResult(false, 'INF002');
+				return $this->response;
+			}
+			
+			// Verificar o tipo da forma de pagamento da taxa de instalacao (boleto ou cartao)
+			if ($vDadosTaxaInstalacao['taxainstalacaoiscartao'] == 't'){
+				// Forma de pagamento por cartão
+			} else {
+				// Forma de pagamento por boleto
+				
+				$this->geraTaxaInstalacaoBoleto($prpoid, $vDadosTaxaInstalacao);
+				
+				
+			}
+			
+			
+			
+			
+			echo "<pre>";
+			print_r ($vDadosTaxaInstalacao);
+			exit;
+     		
+     	} else{
+    		$this->response->setResult(false, 'INF005');
+    	}
+     	exit;
+     	
+     	// Taxa instalacao pagamento -> Boleto
+    	// PASSOS:
+    	
+    	// verificar se possui taxa de instalacao paga para o contrato, caso existir não gera nova taxa e segue o fluxo
+    	
+    	// buscar os dados (valores) referentes a taxa de instalacao, salvo na proposta
+    	
+    	// verificar se existe na base algum titulo de taxa de instalacao para o contrato, nao pago e com valores diferentes da proposta
+    	// se existir, cancelar a existente
+    	
+    	// salvar na base o titulo de taxa de instalacao (titulo_retencao)
+    	// salvar na base o controle de envio do titulo (controle_titulo_envio)
+    	// gerar boleto 1 parcela
+    	// enviar boleto para o cliente
+    	// salvar na base que titulo foi enviado ao cliente
+    	
+    	
+    	// Taxa instalacao pagamento -> Cartao
+    	// PASSOS:
+    	
+    	// verificar se possui taxa de instalacao paga para o contrato, caso existir não gera nova taxa e segue o fluxo
+    	
+    	// salvar na base o titulo de taxa de instalacao (titulo)
+    	// efetuar cobranca do titulo da taxa de instalacao
+    	// enviar confirmacao do pagamento da taxa de instalacao
+    	
+     	
+	}
+	*/
+	
+	
+}

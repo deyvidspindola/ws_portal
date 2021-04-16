@@ -1,0 +1,209 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/intranet/!svn/ver/22640/trunk/modulos/Financas/View/fin_transferencia_titularidade
+END
+transferenciaMessage.php
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/intranet/!svn/ver/22252/trunk/modulos/Financas/View/fin_transferencia_titularidade/transferenciaMessage.php
+END
+formulario_pesquisa.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_transferencia_titularidade/formulario_pesquisa.php
+END
+pesquisa.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_transferencia_titularidade/pesquisa.php
+END
+anexar_carta_transferencia.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_transferencia_titularidade/anexar_carta_transferencia.php
+END
+historico_lista.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/intranet/!svn/ver/22252/trunk/modulos/Financas/View/fin_transferencia_titularidade/historico_lista.php
+END
+contratosTransferidos.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/intranet/!svn/ver/22252/trunk/modulos/Financas/View/fin_transferencia_titularidade/contratosTransferidos.php
+END
+contratos_transferencias_selecionados_grid.php
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/intranet/!svn/ver/22640/trunk/modulos/Financas/View/fin_transferencia_titularidade/contratos_transferencias_selecionados_grid.php
+END
+_historico.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/intranet/!svn/ver/22252/trunk/modulos/Financas/View/fin_transferencia_titularidade/_historico.php
+END
+historico.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/intranet/!svn/ver/22252/trunk/modulos/Financas/View/fin_transferencia_titularidade/historico.php
+END
+contratos_transferencias.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/intranet/!svn/ver/22252/trunk/modulos/Financas/View/fin_transferencia_titularidade/contratos_transferencias.php
+END
+dados_contatos.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/intranet/!svn/ver/22640/trunk/modulos/Financas/View/fin_transferencia_titularidade/dados_contatos.php
+END
+editar.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/intranet/!svn/ver/22252/trunk/modulos/Financas/View/fin_transferencia_titularidade/editar.php
+END
+endereco_cobranca.php
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_transferencia_titularidade/endereco_cobranca.php
+END
+resultado_pesquisa.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_transferencia_titularidade/resultado_pesquisa.php
+END
+_novo.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/intranet/!svn/ver/22252/trunk/modulos/Financas/View/fin_transferencia_titularidade/_novo.php
+END
+pessoas_autorizadas.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_transferencia_titularidade/pessoas_autorizadas.php
+END
+lista_contrato_dadoscontato.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_transferencia_titularidade/lista_contrato_dadoscontato.php
+END
+contato_instalacao_assistencia.php
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_transferencia_titularidade/contato_instalacao_assistencia.php
+END
+mensagem.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_transferencia_titularidade/mensagem.php
+END
+_atual.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/intranet/!svn/ver/22252/trunk/modulos/Financas/View/fin_transferencia_titularidade/_atual.php
+END
+_abas.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/intranet/!svn/ver/22252/trunk/modulos/Financas/View/fin_transferencia_titularidade/_abas.php
+END
+formulario_nova_transferencia.php
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/intranet/!svn/ver/22640/trunk/modulos/Financas/View/fin_transferencia_titularidade/formulario_nova_transferencia.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/intranet/!svn/ver/22252/trunk/modulos/Financas/View/fin_transferencia_titularidade/index.php
+END
+novo_cliente_juridico.php
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_transferencia_titularidade/novo_cliente_juridico.php
+END
+novo_cliente_fisico.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_transferencia_titularidade/novo_cliente_fisico.php
+END
+novo.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/intranet/!svn/ver/22252/trunk/modulos/Financas/View/fin_transferencia_titularidade/novo.php
+END
+formas_pagamento.php
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_transferencia_titularidade/formas_pagamento.php
+END
+novo_cliente.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_transferencia_titularidade/novo_cliente.php
+END
+endereco.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_transferencia_titularidade/endereco.php
+END
+anexar_arquivo.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_transferencia_titularidade/anexar_arquivo.php
+END
+contato_emergencia.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_transferencia_titularidade/contato_emergencia.php
+END
+contratos_erros.php
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/intranet/!svn/ver/22252/trunk/modulos/Financas/View/fin_transferencia_titularidade/contratos_erros.php
+END
+_header.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/intranet/!svn/ver/22252/trunk/modulos/Financas/View/fin_transferencia_titularidade/_header.php
+END
+_msgPrincipal.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_transferencia_titularidade/_msgPrincipal.php
+END

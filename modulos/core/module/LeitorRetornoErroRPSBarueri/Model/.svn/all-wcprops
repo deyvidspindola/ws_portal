@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/intranet/!svn/ver/17242/trunk/modulos/core/module/LeitorRetornoErroRPSBarueri/Model
+END
+LeitorRetornoErroRPSBarueriModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/intranet/!svn/ver/17242/trunk/modulos/core/module/LeitorRetornoErroRPSBarueri/Model/LeitorRetornoErroRPSBarueriModel.php
+END
+DetalheTipo2ArquivoErroRPSBarueriModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/intranet/!svn/ver/17242/trunk/modulos/core/module/LeitorRetornoErroRPSBarueri/Model/DetalheTipo2ArquivoErroRPSBarueriModel.php
+END
+DetalheTipo3ArquivoErroRPSBarueriModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/intranet/!svn/ver/17242/trunk/modulos/core/module/LeitorRetornoErroRPSBarueri/Model/DetalheTipo3ArquivoErroRPSBarueriModel.php
+END
+HeaderTipo1ArquivoErroRPSBarueriModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/intranet/!svn/ver/17242/trunk/modulos/core/module/LeitorRetornoErroRPSBarueri/Model/HeaderTipo1ArquivoErroRPSBarueriModel.php
+END
+TrailerTipo9ArquivoErroRPSBarueriModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/intranet/!svn/ver/17242/trunk/modulos/core/module/LeitorRetornoErroRPSBarueri/Model/TrailerTipo9ArquivoErroRPSBarueriModel.php
+END

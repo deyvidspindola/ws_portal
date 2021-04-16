@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/intranet/!svn/ver/19166/trunk/modulos/core/infra/Model
+END
+ParametroDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/intranet/!svn/ver/19166/trunk/modulos/core/infra/Model/ParametroDAO.php
+END
+ResponseDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/intranet/!svn/ver/14114/trunk/modulos/core/infra/Model/ResponseDAO.php
+END
+ComumDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/intranet/!svn/ver/13452/trunk/modulos/core/infra/Model/ComumDAO.php
+END

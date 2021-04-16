@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/intranet/!svn/ver/23671/trunk/modulos/SmartAgenda/DAO
+END
+EstoqueAgendaDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/intranet/!svn/ver/22911/trunk/modulos/SmartAgenda/DAO/EstoqueAgendaDAO.php
+END
+SmartAgendaDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/intranet/!svn/ver/23671/trunk/modulos/SmartAgenda/DAO/SmartAgendaDAO.php
+END
+IntegradorSistemasDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/11776/trunk/modulos/SmartAgenda/DAO/IntegradorSistemasDAO.php
+END
+SolicitacaoProdutoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/22911/trunk/modulos/SmartAgenda/DAO/SolicitacaoProdutoDAO.php
+END
+ContratoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/intranet/!svn/ver/22911/trunk/modulos/SmartAgenda/DAO/ContratoDAO.php
+END
+ControleConsumoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/intranet/!svn/ver/23671/trunk/modulos/SmartAgenda/DAO/ControleConsumoDAO.php
+END
+SincronizacaoLegadoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/intranet/!svn/ver/11776/trunk/modulos/SmartAgenda/DAO/SincronizacaoLegadoDAO.php
+END
+AgendaDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/intranet/!svn/ver/11776/trunk/modulos/SmartAgenda/DAO/AgendaDAO.php
+END
+ComunicacaoEmailsSMSDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/intranet/!svn/ver/16216/trunk/modulos/SmartAgenda/DAO/ComunicacaoEmailsSMSDAO.php
+END
+DAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/intranet/!svn/ver/12737/trunk/modulos/SmartAgenda/DAO/DAO.php
+END
+OutboundDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/intranet/!svn/ver/11776/trunk/modulos/SmartAgenda/DAO/OutboundDAO.php
+END
+OrdemServicoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/intranet/!svn/ver/13361/trunk/modulos/SmartAgenda/DAO/OrdemServicoDAO.php
+END
+ControleCapacidadeDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/11776/trunk/modulos/SmartAgenda/DAO/ControleCapacidadeDAO.php
+END
+ReservaProdutoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/intranet/!svn/ver/22911/trunk/modulos/SmartAgenda/DAO/ReservaProdutoDAO.php
+END

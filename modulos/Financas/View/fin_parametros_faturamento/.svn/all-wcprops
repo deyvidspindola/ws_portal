@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/23669/trunk/modulos/Financas/View/fin_parametros_faturamento
+END
+pesquisa.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_parametros_faturamento/pesquisa.php
+END
+insere_edita_listagem_contratos.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_parametros_faturamento/insere_edita_listagem_contratos.php
+END
+insere_edita_parametros_faturamento.php
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/intranet/!svn/ver/23669/trunk/modulos/Financas/View/fin_parametros_faturamento/insere_edita_parametros_faturamento.php
+END
+excluir_massivo_parametros_faturamento.php
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/intranet/!svn/ver/23665/trunk/modulos/Financas/View/fin_parametros_faturamento/excluir_massivo_parametros_faturamento.php
+END
+popup_parametros_faturamento.php
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_parametros_faturamento/popup_parametros_faturamento.php
+END
+resultado_pesquisa.view.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/intranet/!svn/ver/23669/trunk/modulos/Financas/View/fin_parametros_faturamento/resultado_pesquisa.view.php
+END
+insere_edita_listagem_clientes.php
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_parametros_faturamento/insere_edita_listagem_clientes.php
+END

@@ -1,0 +1,151 @@
+.block-margin {
+    margin-top: 20px !important;
+}
+
+.left {
+    float: left;
+    width: 540px;
+    margin: 0 10px 0 0;
+}
+
+.params_veiculo {
+
+width: 500px !important;
+
+}
+
+.params_veiculo .maior3{
+
+width: 550px !important;
+
+}
+
+
+
+.esquerda {
+    float: left;
+    overflow: hidden;
+    width: 540px;
+    margin: 0 10px 0 0;
+}
+.right {
+    float: left;
+}
+
+.clear-left {
+    clear: left;
+}
+.clear-esquerda {
+    clear: left;
+}
+
+.borda-fix {
+    border: 1px solid #94adc2;
+    overflow: hidden;
+    padding: 5px;
+    clear: both;
+}
+
+.combo-check {
+    width: 250px;
+  
+   
+    height: 200px;
+    float: left;
+    overflow: hidden;
+    overflow-y: scroll;
+    border: 1px solid #94adc2;
+}
+.combo-check ul {
+    width: 240px;
+    padding: 5px !important;
+    overflow: hidden;
+}
+.combo-check ul li {
+    overflow: hidden;
+}
+.combo-check ul li label {
+    width: 200px;
+    float: left;
+}
+.combo-check ul li input {   
+    width: 20px;
+    float: left;
+}
+
+
+.small-input {
+    width: 35px;
+}
+
+.campo {
+	float: left;
+	margin: 5px 10px 5px 0px;
+	padding: 0px;
+}
+
+	.campo span {
+		margin: 0px;
+		padding: 0px;
+		font-size: 10px;
+		font-weight: bold;
+		color: #a47e3c;
+	}
+
+	.menor {
+		width: 120px;
+	}
+	
+	.menor2 {
+		width: 85px;
+	}
+	
+	
+	.menor input.campo {
+			width: 108px;
+		}
+		
+	
+	.menor select {
+			width: 120px;
+		}
+	
+	.medio {
+		width: 250px;
+	}
+	
+	.medio2 {
+		width: 260px;
+	}
+		.medio textarea, .medio input.campo {
+			width: 238px;
+		}
+		
+		.medio select {
+			width: 250px;
+		}
+	
+	.maior {
+		width: 380px;
+	}
+	
+		.maior textarea, .maior input.campo {
+			width: 368px;
+		}
+		
+		.maior select {
+			width: 380px;
+		}
+    .maior2 {
+        width: 450px;
+    }
+     .maior3 {
+        width: 650px;
+    }
+    
+    .maior4 {
+       width: 650px;
+       float: left;;
+    }
+    
+    

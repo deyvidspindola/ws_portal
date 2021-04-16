@@ -16,6 +16,7 @@ ff02::2	ip6-allrouters
 172.16.19.21    sascar.local sascar gvt-srv-dc1.sascar.local
 172.16.2.77     gvtsvdw-fnt01.sascar.local
 10.1.105.21     revgeowebdev1.sascar.com.br
+10.1.105.72     telemetriadev1.sascar.com.br
 
 10.1.101.21     sjpsvhx-web01 sjpsvhx-web01.sascar.com.br
 10.1.101.21		hom-wsprotheus.sascar.com.br

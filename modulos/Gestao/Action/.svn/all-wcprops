@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/intranet/!svn/ver/11227/trunk/modulos/Gestao/Action
+END
+GesAcoes.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/intranet/!svn/ver/11227/trunk/modulos/Gestao/Action/GesAcoes.php
+END
+GesUsuarios.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/intranet/!svn/ver/11227/trunk/modulos/Gestao/Action/GesUsuarios.php
+END
+GesIndicador.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/intranet/!svn/ver/11227/trunk/modulos/Gestao/Action/GesIndicador.php
+END
+GesEstruturaArvore.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/intranet/!svn/ver/11227/trunk/modulos/Gestao/Action/GesEstruturaArvore.php
+END
+GesLayout.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/intranet/!svn/ver/11227/trunk/modulos/Gestao/Action/GesLayout.php
+END
+GesPlanoAcao.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/intranet/!svn/ver/11227/trunk/modulos/Gestao/Action/GesPlanoAcao.php
+END
+GesImportacao.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/intranet/!svn/ver/11227/trunk/modulos/Gestao/Action/GesImportacao.php
+END
+GesGraficoMeta.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/intranet/!svn/ver/11227/trunk/modulos/Gestao/Action/GesGraficoMeta.php
+END
+GesMeta.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/intranet/!svn/ver/11227/trunk/modulos/Gestao/Action/GesMeta.php
+END

@@ -1,0 +1,143 @@
+10
+
+dir
+24113
+https://vsvn.sascar.com.br/svn/intranet/trunk/modulos
+https://vsvn.sascar.com.br/svn/intranet
+
+
+
+2020-08-28T12:19:01.079811Z
+24112
+renato.pereira.ext
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+292cbd3e-a9cf-48a8-a44d-77f41e396b1b
+
+eSitef
+dir
+
+Principal
+dir
+
+Gestao
+dir
+
+Financas
+dir
+
+VO
+dir
+
+SmartAgenda
+dir
+
+core
+dir
+
+DAO.php
+file
+
+
+
+
+2020-08-27T18:21:56.272365Z
+2d9aa57d152570f780f0303c8de71996
+2018-03-23T17:04:33.242246Z
+16474
+gustavo.silva.ext
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1192
+
+Gerencial
+dir
+
+Manutencao
+dir
+
+Commun
+dir
+
+Exception
+dir
+
+Relatorio
+dir
+
+Cadastro
+dir
+
+Cron
+dir
+
+Documentacao
+dir
+
+DAO
+dir
+
+solicitacoes_lote
+dir
+
+SoftwareExpress
+dir
+
+Atendimento
+dir
+
+Login
+dir
+
+RH
+dir
+
+Grafico
+dir
+
+View
+dir
+
+TI
+dir
+
+Action
+dir
+
+web
+dir
+
+Produto_Com_Seguro
+dir
+

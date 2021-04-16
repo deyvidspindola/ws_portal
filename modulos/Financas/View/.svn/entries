@@ -1,0 +1,204 @@
+10
+
+dir
+24113
+https://vsvn.sascar.com.br/svn/intranet/trunk/modulos/Financas/View
+https://vsvn.sascar.com.br/svn/intranet
+
+
+
+2020-08-04T12:07:44.043878Z
+24003
+renato.pereira.ext
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+292cbd3e-a9cf-48a8-a44d-77f41e396b1b
+
+fin_credito_futuro_relatorio_gerencial
+dir
+
+fin_comissao_indicador
+dir
+
+fin_da_conciliacao_transacoes
+dir
+
+fin_consulta_nota_fiscal_vivo
+dir
+
+fin_credito_futuro
+dir
+
+fin_fat_venda_equipamento
+dir
+
+fin_audita_parcela
+dir
+
+fin_da_paramentros
+dir
+
+fin_faturamento_nf_chaves
+dir
+
+fin_credito_futuro_pendentes
+dir
+
+fin_contas_apagar
+dir
+
+FinNotaMonitoramentoDiferidoView.php
+file
+
+
+
+
+2020-08-27T18:21:50.438396Z
+37426e031938815a8a8893fe4a6c01fc
+2015-07-08T20:05:11.723632Z
+11
+a.santos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1014
+
+fin_pre_obrigacoes_pen_apro
+dir
+
+fin_rescisao
+dir
+
+fin_faturamento_unificado_vivo
+dir
+
+fin_importacao_status_contrato
+dir
+
+fin_cobranca_registrada
+dir
+
+fin_transferencia_titularidade
+dir
+
+fin_macros_micros_motivos
+dir
+
+Fin_Gera_Nf_Boleto_Grafica
+dir
+
+fin_rescisao_inadimplencia
+dir
+
+fin_isencao_faturamento
+dir
+
+fin_nota_fiscal_eletronica
+dir
+
+fin_conciliacao_transacoes_cartao_credito
+dir
+
+fin_credito_futuro_relatorio_cliente_indicador
+dir
+
+fin_previsao_arrecadacao_vivo
+dir
+
+fin_importar_custo_medio_produto
+dir
+
+FinTransferenciaTitularidadeView.class.php
+file
+
+
+
+
+2020-08-27T18:21:50.437396Z
+fd46862de5fa7d92d8bf1e597f9c72cd
+2015-07-08T20:05:11.723632Z
+11
+a.santos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+9954
+
+fin_credito_futuro_parametrizacao_campanha
+dir
+
+fin_fat_manual
+dir
+
+fin_controle_fiscal_remessas
+dir
+
+fin_resumo_comissao_novo
+dir
+
+fin_visualizar_transacoes_cartao_credito
+dir
+
+fin_credito_futuro_parametrizacao
+dir
+
+fin_manutencao_faturamento_unificado
+dir
+
+fin_nota_monitoramento_diferido
+dir
+
+fin_boletagem_massiva
+dir
+
+fin_parametros_faturamento
+dir
+

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/intranet/!svn/ver/22911/trunk/modulos/Manutencao/DAO
+END
+ManParametrizacaoSmartAgendaDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/intranet/!svn/ver/22911/trunk/modulos/Manutencao/DAO/ManParametrizacaoSmartAgendaDAO.php
+END
+ManPermissaoFuncaoCargoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/intranet/!svn/ver/15975/trunk/modulos/Manutencao/DAO/ManPermissaoFuncaoCargoDAO.php
+END
+ManCustosApagarDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/intranet/!svn/ver/19937/trunk/modulos/Manutencao/DAO/ManCustosApagarDAO.php
+END
+ManPermissaoPaginaCargoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/intranet/!svn/ver/15975/trunk/modulos/Manutencao/DAO/ManPermissaoPaginaCargoDAO.php
+END
+ParametrizacaoUraDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/intranet/!svn/ver/11227/trunk/modulos/Manutencao/DAO/ParametrizacaoUraDAO.php
+END
+ManCancelamentoAutomaticoOSDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/intranet/!svn/ver/11227/trunk/modulos/Manutencao/DAO/ManCancelamentoAutomaticoOSDAO.php
+END
+ManPoliticaDescontoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/11227/trunk/modulos/Manutencao/DAO/ManPoliticaDescontoDAO.php
+END
+ManOcorrenciaDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/intranet/!svn/ver/11227/trunk/modulos/Manutencao/DAO/ManOcorrenciaDAO.php
+END
+ManDesembarqueConfiguracoesDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/intranet/!svn/ver/15232/trunk/modulos/Manutencao/DAO/ManDesembarqueConfiguracoesDAO.php
+END
+ManInsereTextoContratoDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/intranet/!svn/ver/21598/trunk/modulos/Manutencao/DAO/ManInsereTextoContratoDAO.class.php
+END
+ManUsuarioDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/intranet/!svn/ver/15975/trunk/modulos/Manutencao/DAO/ManUsuarioDAO.php
+END
+ManCobrarProdutosDivergentesDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/intranet/!svn/ver/11227/trunk/modulos/Manutencao/DAO/ManCobrarProdutosDivergentesDAO.php
+END
+ManCorrecaoBaixaEstoqueDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/intranet/!svn/ver/11227/trunk/modulos/Manutencao/DAO/ManCorrecaoBaixaEstoqueDAO.php
+END
+ManTempoMinimoServicoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/intranet/!svn/ver/15903/trunk/modulos/Manutencao/DAO/ManTempoMinimoServicoDAO.php
+END

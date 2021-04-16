@@ -1,0 +1,160 @@
+.cpf, .cnpj {
+	width: 150px;
+}
+
+.td_cpf, .td_cnpj {
+	padding-left: 0px;
+	width: 50px;
+}
+
+#tipo_contrato{
+	width: 350px;
+}
+
+#obrigacao_financeira{
+	width: 350px;
+}
+
+.label_obr{
+	width: 150px;
+}
+
+.fields div label{
+	margin: 0;	
+	float: left;
+}
+
+.container_periodicidade{
+	float: right;
+	margin-right: 93px;
+}
+
+#isento_cobranca{
+	border: none !important;
+}
+
+#ativo_faturamento{
+	border: none !important;
+}
+
+.period_fat{
+	margin-right: 59px;
+}
+
+.periodicidade label{
+	float: right;
+}
+
+
+.container{
+	margin-top: 31px;
+}
+
+.periodicidade div{
+	width: 188px !important;
+	float: right;
+}
+
+.label_periodicidade{
+	margin-left: 22px !important;
+}
+
+.periodicidade select{
+	width: 150px;
+}
+
+
+.nivel{
+	margin-left: 198px !important;
+	margin-top: -23px;
+}
+
+.nivel label, .nivel input{
+	float:left;
+}
+
+.field_cpf{
+	display: none;
+}
+
+.field_cnpj{
+	margin-left: 2px;
+}
+
+.field_nivel{
+	padding: 5px; width: 495px;
+}
+
+.field_tpPessoa{
+	float: right;
+	padding: 1px; 
+	width: 90px;
+	text-align: left!important;
+}
+
+.field_tpPessoa label {
+	display: block;
+}
+
+.nivel div{
+	width: 80px !important;
+	margin-left: 5px !important;
+}
+
+.nivel fieldset{
+	width: 417px;
+	padding:8px;
+}
+
+.table_nivel{
+	width: 380px !important;
+}
+
+.table_nivel label{
+	margin-left: 50px;
+}
+
+.width_td{
+	width: 500px;
+}
+
+.cnpj_cpf div{
+	width: 40px !important;
+}
+
+.position_relative{
+	position: relative;
+	top: 9px;
+	margin-bottom: 14px;
+}
+
+
+fieldset{
+	border: 1px solid #CCC; 
+	background: none; 
+}
+
+.tipo_pessoa fieldset{
+	width:100px;
+	padding: 4px;
+}
+
+.fields div{
+	 width: 130px;
+	 float: left; 
+	 padding: 5px;
+}
+
+.fields input{
+	float: left;
+}
+
+.disabled {
+	font-weight: bold;
+	color: silver!important;
+	background-color: #efefef;
+}
+
+.clear{
+	clear:both;
+}

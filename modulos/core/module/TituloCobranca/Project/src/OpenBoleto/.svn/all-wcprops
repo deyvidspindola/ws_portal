@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/intranet/!svn/ver/19558/trunk/modulos/core/module/TituloCobranca/Project/src/OpenBoleto
+END
+BoletoFactory.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/intranet/!svn/ver/19558/trunk/modulos/core/module/TituloCobranca/Project/src/OpenBoleto/BoletoFactory.php
+END
+DateTime.php
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/intranet/!svn/ver/19558/trunk/modulos/core/module/TituloCobranca/Project/src/OpenBoleto/DateTime.php
+END
+Exception.php
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/intranet/!svn/ver/19558/trunk/modulos/core/module/TituloCobranca/Project/src/OpenBoleto/Exception.php
+END
+Agente.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/intranet/!svn/ver/19558/trunk/modulos/core/module/TituloCobranca/Project/src/OpenBoleto/Agente.php
+END
+BoletoAbstract.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/intranet/!svn/ver/19558/trunk/modulos/core/module/TituloCobranca/Project/src/OpenBoleto/BoletoAbstract.php
+END

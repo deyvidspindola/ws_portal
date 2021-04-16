@@ -1,0 +1,76 @@
+.inline label {
+    display: inline !important;
+    vertical-align: 2px !important;
+}
+.inline {
+    vertical-align: middle !important;
+    top: 15px;
+}
+
+.campo_valor_direita {
+	text-align: right;
+}
+
+.codigo{
+    text-transform: uppercase;
+}
+.conteudo fieldset img {
+    vertical-align: bottom;
+}
+
+.tabela_titulo {
+    background: #e6eaee none repeat scroll 0 0;
+    border-bottom: medium none !important;
+    border-top: 1px solid #94adc2;
+    font-size: 12px;
+    font-weight: bold;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    vertical-align: middle;
+}
+
+.btn-help {
+    position: absolute;
+    margin: inherit;
+    top: -6px;
+    margin-left: 5px;
+}
+
+/* Usado no help comment */
+#helpComment{
+    position:absolute;
+    width:300px;
+    border:1px solid #94ADC2;
+    padding:1px;
+    background-color:#eff3f7;
+    font-family:arial;
+    font-size:10px;
+    visibility:hidden;
+}
+
+#helpCommentSeta{
+    position:absolute;
+}
+
+#helpComment .cell-mensagem{
+    padding:5px;
+    color: black;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size:11px;
+}
+
+#helpComment .cell-topo-mensagem{
+    padding-left:5px;
+    background-color: #DFEAF3;    
+    color: black;
+    font-family:arial;
+    font-size:11px;
+    font-weight:bold;
+    height:18px;
+} 
+
+ul.ui-autocomplete.ui-menu { 
+    width:500px !important;
+    border: 1px solid #999;
+}

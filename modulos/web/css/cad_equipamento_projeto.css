@@ -1,0 +1,23 @@
+.input_error{
+    background: rgb(255, 255, 192);
+}
+
+.linha_vazia{
+    height: 5px;
+}
+
+.botao_pad{
+    padding-left: 10px; 
+    padding-right: 10px;
+}
+
+.invisivel{
+    display: none;
+}
+
+.desabilitado {
+    color: #777777;
+    background-color: #eee;
+    border-color: #999;
+    cursor: not-allowed;
+}

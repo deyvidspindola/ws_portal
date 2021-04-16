@@ -1,0 +1,100 @@
+10
+
+dir
+24113
+https://vsvn.sascar.com.br/svn/intranet/trunk/modulos/core/module
+https://vsvn.sascar.com.br/svn/intranet
+
+
+
+2020-08-21T00:45:42.081501Z
+24064
+renato.pereira.ext
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+292cbd3e-a9cf-48a8-a44d-77f41e396b1b
+
+WSProtheus
+dir
+
+Cliente
+dir
+
+NotaFiscal
+dir
+
+RoteadorBoleto
+dir
+
+Boleto
+dir
+
+EventoBoletoRegistro
+dir
+
+EscritorRetornoCNABSantander
+dir
+
+NotaFiscalEletronica
+dir
+
+Contrato
+dir
+
+Parametro
+dir
+
+ContratoAntigo
+dir
+
+LeitorRetornoCNABSantander
+dir
+
+EscritorRemessaCNABSantander
+dir
+
+LeitorRetornoErroRPSBarueri
+dir
+
+Autenticacao
+dir
+
+OrdemServico
+dir
+
+LeitorRemessaCNABSantander
+dir
+
+RegistroOnline
+dir
+
+LeitorRetornoRPSBarueri
+dir
+
+Veiculo
+dir
+
+BoletoRegistrado
+dir
+
+TituloCobranca
+dir
+
+EscritorRemessaRPSBarueri
+dir
+
+GestorCredito
+dir
+

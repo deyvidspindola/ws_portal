@@ -1,0 +1,515 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/intranet/!svn/ver/23687/trunk/modulos/Cadastro/DAO
+END
+CadBonificacaoRepresentanteDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadBonificacaoRepresentanteDAO.php
+END
+CadEquipamentoProjetoDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadEquipamentoProjetoDAO.class.php
+END
+CadRetencaoImpostosDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadRetencaoImpostosDAO.php
+END
+CadControleFalhasAcessoriosDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadControleFalhasAcessoriosDAO.php
+END
+CadRestricoesVinculacaoAcessorioDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/intranet/!svn/ver/15323/trunk/modulos/Cadastro/DAO/CadRestricoesVinculacaoAcessorioDAO.class.php
+END
+CadControleFalhasDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadControleFalhasDAO.php
+END
+CadAcaoOSDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadAcaoOSDAO.php
+END
+CadGrupoTrabalhoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadGrupoTrabalhoDAO.php
+END
+CadMotivoBackofficeDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadMotivoBackofficeDAO.php
+END
+CadContratoServicosDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadContratoServicosDAO.class.php
+END
+CadSubtipoVeiculoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/intranet/!svn/ver/16474/trunk/modulos/Cadastro/DAO/CadSubtipoVeiculoDAO.php
+END
+CadAtendimentoProntaRespostaDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadAtendimentoProntaRespostaDAO.php
+END
+CadChamadasSeguradoraDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadChamadasSeguradoraDAO.php
+END
+CadIntervPosicionamentoEquipamentosDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadIntervPosicionamentoEquipamentosDAO.class.php
+END
+CadRepresentanteDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/intranet/!svn/ver/11776/trunk/modulos/Cadastro/DAO/CadRepresentanteDAO.php
+END
+CadSubgrupoObrigacaoFinanceiraHistoricoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/intranet/!svn/ver/16811/trunk/modulos/Cadastro/DAO/CadSubgrupoObrigacaoFinanceiraHistoricoDAO.php
+END
+CadCidadeMapeadaBairroDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadCidadeMapeadaBairroDAO.php
+END
+CadTiposVeiculoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadTiposVeiculoDAO.php
+END
+CadQuestionarioPosVendaDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/intranet/!svn/ver/14627/trunk/modulos/Cadastro/DAO/CadQuestionarioPosVendaDAO.class.php
+END
+CadClienteDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/intranet/!svn/ver/19934/trunk/modulos/Cadastro/DAO/CadClienteDAO.class.php
+END
+CadItensEssenciaisDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/intranet/!svn/ver/15323/trunk/modulos/Cadastro/DAO/CadItensEssenciaisDAO.php
+END
+CadSubgrupoObrigacaoFinanceiraDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/intranet/!svn/ver/16811/trunk/modulos/Cadastro/DAO/CadSubgrupoObrigacaoFinanceiraDAO.php
+END
+CadInstaladorDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/intranet/!svn/ver/11776/trunk/modulos/Cadastro/DAO/CadInstaladorDAO.php
+END
+CadAcaoMotivoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadAcaoMotivoDAO.php
+END
+CadControleFalhasAcessoriosNovoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadControleFalhasAcessoriosNovoDAO.php
+END
+CadEspelhamento4grDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/intranet/!svn/ver/23687/trunk/modulos/Cadastro/DAO/CadEspelhamento4grDAO.php
+END
+CadImportacaoFipeDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadImportacaoFipeDAO.php
+END
+CadLayoutKitBoasVindasDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadLayoutKitBoasVindasDAO.class.php
+END
+CadSubTipoVeiculoObrigacaoFinanceiraDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/intranet/!svn/ver/16521/trunk/modulos/Cadastro/DAO/CadSubTipoVeiculoObrigacaoFinanceiraDAO.php
+END
+CadMaterialNovoDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadMaterialNovoDAO.class.php
+END
+CadMotivoSuspDebitoAutomaticoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadMotivoSuspDebitoAutomaticoDAO.php
+END
+CadAlcadaAprovacaoDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadAlcadaAprovacaoDAO.class.php
+END
+CadModeloEbsDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadModeloEbsDAO.php
+END
+CadParametrizacaoConsultaGestorCreditoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadParametrizacaoConsultaGestorCreditoDAO.php
+END
+CadMarcaVeiculoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/intranet/!svn/ver/15903/trunk/modulos/Cadastro/DAO/CadMarcaVeiculoDAO.php
+END
+CadHorarioPausaItemDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/intranet/!svn/ver/21094/trunk/modulos/Cadastro/DAO/CadHorarioPausaItemDAO.php
+END
+TipoContratoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/TipoContratoDAO.php
+END
+CadMotivoTesteParcialDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/15903/trunk/modulos/Cadastro/DAO/CadMotivoTesteParcialDAO.php
+END
+CadTestesAtivacaoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/intranet/!svn/ver/15903/trunk/modulos/Cadastro/DAO/CadTestesAtivacaoDAO.php
+END
+CadPlanoSatelitalDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadPlanoSatelitalDAO.class.php
+END
+CadInfoControleFalhasDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadInfoControleFalhasDAO.php
+END
+CadGruposDeTestesDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadGruposDeTestesDAO.php
+END
+CadBancoDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadBancoDAO.class.php
+END
+CadInpcDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadInpcDAO.php
+END
+CadObrigacaoDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadObrigacaoDAO.class.php
+END
+CadEmbarcadoresDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadEmbarcadoresDAO.class.php
+END
+CadEmbarqueConfiguracoesPortalDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadEmbarqueConfiguracoesPortalDAO.class.php
+END
+CadTiposSegmentoMercadoDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadTiposSegmentoMercadoDAO.class.php
+END
+CadEquivalenciaEquipamentosDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadEquivalenciaEquipamentosDAO.php
+END
+CadDadosEquipamentoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/intranet/!svn/ver/21324/trunk/modulos/Cadastro/DAO/CadDadosEquipamentoDAO.php
+END
+CadImportacaoCorreiosDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadImportacaoCorreiosDAO.php
+END
+CadModeloVeiculoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/intranet/!svn/ver/16535/trunk/modulos/Cadastro/DAO/CadModeloVeiculoDAO.php
+END
+CadLayoutEmailsDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadLayoutEmailsDAO.php
+END
+CadEquipamentosMateriaisDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/intranet/!svn/ver/22448/trunk/modulos/Cadastro/DAO/CadEquipamentosMateriaisDAO.php
+END
+SendLayoutEmailsDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/SendLayoutEmailsDAO.php
+END
+CadCondicaoPagamentoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadCondicaoPagamentoDAO.php
+END
+CadTesteObrigacaoFinanceiraDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadTesteObrigacaoFinanceiraDAO.php
+END
+CadTipoCarretaDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadTipoCarretaDAO.php
+END
+CadValoresMinimosFaturamentoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadValoresMinimosFaturamentoDAO.php
+END
+CadAgrupamentoClasseDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadAgrupamentoClasseDAO.php
+END
+CadGrupoControleDocumentoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadGrupoControleDocumentoDAO.php
+END
+CadVeiculoRoubadoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/intranet/!svn/ver/22484/trunk/modulos/Cadastro/DAO/CadVeiculoRoubadoDAO.php
+END
+CadParametrizacaoTipoPausaDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadParametrizacaoTipoPausaDAO.php
+END
+CadOperadoraDiaDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadOperadoraDiaDAO.php
+END
+CadMotivoDetalhadoReclamacaoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadMotivoDetalhadoReclamacaoDAO.php
+END
+CadCicloEquipamentoCTDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadCicloEquipamentoCTDAO.class.php
+END
+CadParametrizacaoRsCalculoRepasseDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadParametrizacaoRsCalculoRepasseDAO.php
+END
+CadMotivosMateriaisDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/intranet/!svn/ver/22448/trunk/modulos/Cadastro/DAO/CadMotivosMateriaisDAO.php
+END
+CadModeloTrava5RodaDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadModeloTrava5RodaDAO.php
+END
+CadCompatibilidadeAcessorioVeiculoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadCompatibilidadeAcessorioVeiculoDAO.php
+END
+CadManutencaoTestesEquipamentoClasseVersaoDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadManutencaoTestesEquipamentoClasseVersaoDAO.class.php
+END
+CadConfiguracaoEquipamentoDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadConfiguracaoEquipamentoDAO.class.php
+END
+CadCategoriaBonificacaoRepresentanteDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadCategoriaBonificacaoRepresentanteDAO.php
+END
+CadSmartdriveClientTokenDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/intranet/!svn/ver/23550/trunk/modulos/Cadastro/DAO/CadSmartdriveClientTokenDAO.php
+END
+EmpresaSascarDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/EmpresaSascarDAO.php
+END
+CadTipoSegmentacaoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadTipoSegmentacaoDAO.php
+END
+CadServicoSoftwareDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadServicoSoftwareDAO.php
+END
+CadPeriodoCarenciaDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadPeriodoCarenciaDAO.php
+END
+CadRequisicaoMaterialDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadRequisicaoMaterialDAO.class.php
+END
+CadVersaoTrava5RodaDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadVersaoTrava5RodaDAO.php
+END
+CadIpRamalCentralClasseDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/intranet/!svn/ver/18614/trunk/modulos/Cadastro/DAO/CadIpRamalCentralClasseDAO.php
+END
+CadEmergenciaCTDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadEmergenciaCTDAO.class.php
+END
+CadValidadesEquipamentosDAO.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadValidadesEquipamentosDAO.class.php
+END
+CadNfAtendimentoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadNfAtendimentoDAO.php
+END
+CadFalhasAcessoriosNovoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cadastro/DAO/CadFalhasAcessoriosNovoDAO.php
+END

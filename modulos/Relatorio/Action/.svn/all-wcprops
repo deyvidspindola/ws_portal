@@ -1,0 +1,281 @@
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/intranet/!svn/ver/24112/trunk/modulos/Relatorio/Action
+END
+RelAnaliseTelemetria.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/22332/trunk/modulos/Relatorio/Action/RelAnaliseTelemetria.php
+END
+RelIntegracaoMaster.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelIntegracaoMaster.php
+END
+RelEmbarcadoresSeg.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelEmbarcadoresSeg.class.php
+END
+RelPaginaFuncaoUser.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/16546/trunk/modulos/Relatorio/Action/RelPaginaFuncaoUser.php
+END
+RelDebitoAutomatico.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelDebitoAutomatico.php
+END
+RelAcompanhamentoOs.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelAcompanhamentoOs.php
+END
+RelAcoesPortalTesteFramework.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelAcoesPortalTesteFramework.php
+END
+RelDataVencimento.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/intranet/!svn/ver/11895/trunk/modulos/Relatorio/Action/RelDataVencimento.php
+END
+RelAnaliseControleFalhas.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelAnaliseControleFalhas.php
+END
+RelIndicadorCancelamento.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelIndicadorCancelamento.php
+END
+RelDatransacoes.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelDatransacoes.php
+END
+RelAtendimentoFrontEnd.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelAtendimentoFrontEnd.php
+END
+RelCustoMedioProdutos.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelCustoMedioProdutos.php
+END
+RelEstatisticasGsm.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelEstatisticasGsm.class.php
+END
+RelEnvioSmsRetorno.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelEnvioSmsRetorno.php
+END
+RelAnaliseConsumoSatelital.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/intranet/!svn/ver/24033/trunk/modulos/Relatorio/Action/RelAnaliseConsumoSatelital.php
+END
+RelBoletagemMassiva.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelBoletagemMassiva.php
+END
+RelOcorrenciaNovoIrvCongelado.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelOcorrenciaNovoIrvCongelado.php
+END
+RelTempoDeDirecao.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/intranet/!svn/ver/23618/trunk/modulos/Relatorio/Action/RelTempoDeDirecao.php
+END
+RelEnvioEmailsAutomaticos.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelEnvioEmailsAutomaticos.php
+END
+RelInstalacaoEquipamento.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelInstalacaoEquipamento.php
+END
+RelConsumoSatelital.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelConsumoSatelital.php
+END
+RelDirecionamentoSinal.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/intranet/!svn/ver/15181/trunk/modulos/Relatorio/Action/RelDirecionamentoSinal.php
+END
+RelReportComercial.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelReportComercial.php
+END
+RelEnvioResetEquipamento.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelEnvioResetEquipamento.php
+END
+RelEquipInstaladoSemSubscription.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelEquipInstaladoSemSubscription.php
+END
+RelDownloadArquivoVenda.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelDownloadArquivoVenda.php
+END
+RelObrigacaoFinanceiraReajusteHistorico.php
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelObrigacaoFinanceiraReajusteHistorico.php
+END
+RelPosicaoEstoque.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelPosicaoEstoque.php
+END
+RelSeriaisLancados.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelSeriaisLancados.php
+END
+RelDescontosConceder.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelDescontosConceder.php
+END
+RelSlaCompras.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelSlaCompras.php
+END
+RelSinalizacaoOsTecladoApagado.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelSinalizacaoOsTecladoApagado.php
+END
+RelFotosOrdemServico.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelFotosOrdemServico.php
+END
+RelAnaliseTratamentoOS.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelAnaliseTratamentoOS.php
+END
+RelProdutosReservados.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelProdutosReservados.php
+END
+RelLinhasReativacao.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelLinhasReativacao.php
+END
+RelLinhas.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/intranet/!svn/ver/24112/trunk/modulos/Relatorio/Action/RelLinhas.php
+END
+RelProdutosSolicitadosDistribuicao.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/intranet/!svn/ver/21598/trunk/modulos/Relatorio/Action/RelProdutosSolicitadosDistribuicao.php
+END
+RelAcoesPortal.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelAcoesPortal.class.php
+END
+RelProdutoComSeguro.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11333/trunk/modulos/Relatorio/Action/RelProdutoComSeguro.php
+END
+RelEnvioEmailsEmLote.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelEnvioEmailsEmLote.php
+END
+RelAgingEquipamentos.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelAgingEquipamentos.class.php
+END
+RelInsucessoDiscador.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/24012/trunk/modulos/Relatorio/Action/RelInsucessoDiscador.php
+END
+RelAprovacaoCredito.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11227/trunk/modulos/Relatorio/Action/RelAprovacaoCredito.php
+END
+RelCalculoDeslocamentoTecnico.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/intranet/!svn/ver/13361/trunk/modulos/Relatorio/Action/RelCalculoDeslocamentoTecnico.php
+END

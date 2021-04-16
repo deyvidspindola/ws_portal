@@ -1,0 +1,12 @@
+div.conteudo {
+    padding: 20px !important;
+}
+div.listagem {
+    overflow-x: scroll !important;
+}
+
+ul.ui-autocomplete {
+    overflow-x: hidden !important;
+    overflow-y: scroll !important;
+    width: 244px !important;
+}

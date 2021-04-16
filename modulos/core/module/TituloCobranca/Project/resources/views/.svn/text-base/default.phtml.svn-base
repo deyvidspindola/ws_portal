@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--
+ * OpenBoleto - Gera&ccedil;&atilde;o de boletos banc&aacute;rios em PHP
+ *
+ * LICENSE: The MIT License (MIT)
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this
+ * software and associated documentation files (the "Software"), to deal in the Software
+ * without restriction, including without limitation the rights to use, copy, modify,
+ * merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+ * permit persons to whom the Software is furnished to do so, subject to the following
+ * conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all copies
+ * or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+ * INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+ * PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
+ * HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+ * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title><?php echo $cedente; ?></title>
+
+    <style type="text/css">        
+        /* Embed the CSS content here */
+        <?php include $resource_path . '/css/styles.css' ?>
+    </style>
+</head>
+<body>
+    <div style="width: 666px">
+        <br>
+        <!--div class="linha-pontilhada" style="margin-bottom: 5px;"></div-->
+        <img src="<?=_PROTOCOLO_ . _SITEURL_?>modulos/core/module/Boleto/Project/resources/images/tracejado.png" width="666" height="1" style="margin-bottom: 5px;">
+        <table class="table-boleto" cellpadding="0" cellspacing="0" border="0">
+            <tbody>
+            <tr>
+                <td valign="bottom" colspan="8" class="noborder nopadding bottomborder">
+                    <div class="logocontainer">
+                        <div class="logobanco">
+                            <img src="<?php echo $logo_banco; ?>" alt="logotipo do banco">
+                        </div>
+                        <div class="codbanco"><?php echo $codigo_banco_com_dv ?></div>
+                    </div>
+                    <div class="info-empresa">
+                        <div style="margin: -20px 0 0px 250px; vertical-align: super; text-align: left;"><div class="titulo"><p style="margin: -25px 0 0 0 !important; font: 9px Arial !important;">Benefici&aacute;rio:</p></div><?php echo '<strong>'.$cedente.'</strong>, '.$cedente_endereco1.' '. $cedente_endereco2.', CNPJ: '.$cedente_cpf_cnpj?></div>
+                    </div>
+                </td>
+            </tr>          
+            <tr>                
+                <td colspan="4" width="370"><div class="titulo" style="margin: -10px 0 0 0 !important;">Recibo do Pagador</div></td>
+                <td width="110">
+                    <div class="titulo">Vencimento</div>
+                    <div class="conteudo rtl"><?php echo $data_vencimento ?></div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" class="notopborder">
+                    <div class="conteudo"></div>
+                </td>
+                <td>
+                    <div class="titulo">Nosso n&uacute;mero</div>
+                    <div class="conteudo rtl"><?php echo $nosso_numero ?></div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" class="notopborder"><div class="conteudo"></div></td>
+                <td>
+                    <div class="titulo">N&ordm; documento</div>
+                    <div class="conteudo rtl"><?php echo $numero_documento ?></div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" class="notopborder"><div class="conteudo"></div></td>
+                <td>
+                    <div class="titulo">Ag&ecirc;ncia/C&oacute;digo benefici&aacute;rio</div>
+                    <div class="conteudo rtl"><?php echo $agencia_codigo_cedente ?></div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4" class="notopborder bottomborder"><div style="margin-bottom: 10px;" class="conteudo"><?php echo $demonstrativo[4] ?></div></td>
+                <td class="bottomborder">
+                    <div class="titulo">(=) Valor Documento</div>
+                    <div class="conteudo rtl"><?php echo $valor_documento ?></div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3" class="noleftborder">
+                    <div class="titulo">Pagador</div>
+                    <div class="conteudo" style="margin-top: 2px !important;"><?php echo $sacado; ?>&emsp;&emsp;<span><?php echo $sacado_documento?></span></div>
+                    <div class="conteudo"><?php echo $sacado_endereco1 ?></div>
+                    <div class="conteudo"><?php echo $sacado_endereco2 ?></div>
+                </td>
+                <td colspan="2" class="norightborder noleftborder" style="vertical-align:top !important;">
+                    <div class="noborder rtl">Autentica&ccedil;&atilde;o mec&acirc;nica</div>
+                </td>
+            </tr>
+            </tbody>
+        </table>
+        <br>
+        <div style="font: 9px Arial !important;">Sacador/Avalista</div>
+        <img src="<?=_PROTOCOLO_ . _SITEURL_?>modulos/core/module/Boleto/Project/resources/images/tesoura.gif" width="666" height="14" style="margin-bottom: 5px;">
+
+        <!-- Ficha de compensa&ccedil;&atilde;o -->
+        <?php include('partials/ficha-de-compensacao.phtml') ?>
+    </div>
+</body>
+</html>

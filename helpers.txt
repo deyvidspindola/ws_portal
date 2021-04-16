@@ -1,0 +1,19 @@
+## incluir essa função dentro do arquivo de funcoes, para poder utilizar os logs na aplicação.
+if (!function_exists('dd')) {
+    function dd($txt) {
+        $log = "/var/www/log/log_".date('Y-m-d').".log";
+        $fp = fopen($log, "a+");
+
+        if (!is_array($txt))
+            $txt = trim(preg_replace('/\s\s+/', ' ', $txt));
+
+        $txt = json_encode([
+            'date' => date('Y-m-d H:i:s'),
+            'message' => $txt
+        ]);
+
+        $txt = $txt."\n";
+        fwrite($fp, $txt);
+        fclose($fp);
+    }
+}

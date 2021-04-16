@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/intranet/!svn/ver/13452/trunk/modulos/core/module/ContratoAntigo
+END
+ContratoAntigoService.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/intranet/!svn/ver/13452/trunk/modulos/core/module/ContratoAntigo/ContratoAntigoService.php
+END
+ContratoAntigoObjService.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/intranet/!svn/ver/13452/trunk/modulos/core/module/ContratoAntigo/ContratoAntigoObjService.php
+END

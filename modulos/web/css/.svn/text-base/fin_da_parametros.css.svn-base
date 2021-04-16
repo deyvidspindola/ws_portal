@@ -1,0 +1,55 @@
+.form_parametros .impar{
+  	  border: solid 0px #D1DDEB;
+  	}
+.form_parametros .impar .menor{
+  	padding: 1px 0 11px 22px;
+  	}
+.form_parametros .meno{
+  	padding: 11px 0 1px 22px;
+  	}
+.form_parametros label {
+    display: block;
+    font-size: 11px;
+}
+.form_parametros div.campo {
+    position: relative;
+}
+.form_parametros .maior {
+    width: 100%;
+}
+.form_parametros .campo {
+    float: left;
+    margin: 15px 0 12px 14px;
+    padding: 0;
+    position: relative;
+}
+.form_parametros .meno input.campo, .meno select {
+    width: 120px;
+}
+.form_parametros input.campo {
+    border: 1px solid #999999;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;    
+    padding: 0 5px;
+    vertical-align: middle;
+    width: 400px;
+}
+.form_parametros .campo p{
+   padding: 21px;
+}
+.form_parametros .opcoes-display-block{
+    padding: 2px 15px 10px 11px;
+    width: 275px;
+    height: 78px;
+ }
+.form_parametros .opcoes-display-block label {    
+    margin: -18px 20px -12px;
+}
+.form_parametros .opcoes-display-block2{
+   padding: 2px 15px 10px 11px;
+}
+.form_parametros .opcoes-display-block2 label {    
+    margin: -18px 20px -12px;
+}

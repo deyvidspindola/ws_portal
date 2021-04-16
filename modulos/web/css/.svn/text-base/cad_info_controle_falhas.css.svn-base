@@ -1,0 +1,11 @@
+.botao {
+	padding: 0 10px;
+}
+.highlight {
+	background-color: #FFFFC0;
+}
+.erro-flash {
+	font-size: 16px;
+	font-weight: bold;
+	
+}

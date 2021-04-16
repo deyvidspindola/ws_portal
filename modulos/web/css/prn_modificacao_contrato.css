@@ -1,0 +1,62 @@
+.label {
+	font-weight: bold;
+	float: left;
+	height: 20px;
+}
+
+.coluna-a{
+	width: 150px;
+}
+
+.coluna-b{
+	width: 350px;
+}
+
+.coluna-c{
+	width: 180px;
+}
+
+.conteudo span{
+	float: left;
+}
+
+.text_red{
+	color: red;
+}
+
+.text_green{
+	color: green;
+}
+
+.blocked {
+	-moz-opacity: 0.50;
+	opacity:.50;
+	filter: alpha(opacity=50);
+}
+
+.blocked a {
+	cursor: not-allowed;
+	pointer-events: none;
+}
+
+.blocked a:hover {
+	text-decoration: none;
+}
+
+.falso-link{
+	 padding: 0px 20px;
+	 cursor: not-allowed;
+	 color: #3b5ca1;
+}
+
+.hand{
+        cursor:pointer;
+}
+
+.field_maior{
+	width: 485px !important;
+}
+
+#nome_portador {
+   	text-transform: uppercase;
+}

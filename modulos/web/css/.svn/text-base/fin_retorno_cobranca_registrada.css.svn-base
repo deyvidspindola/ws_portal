@@ -1,0 +1,26 @@
+
+/* JANELA MODAL */
+/* O z-index do div#mask deve ser menor que do div#boxes e do div.window */
+#mask {
+	position:absolute;
+	z-index:9000;  
+	background-color:#000; 
+	display:none;
+}
+
+#boxes .window {
+	position:absolute;
+	display:none;
+	z-index:9999;
+	padding:20px;
+	background-color:#FFF; 
+}
+
+/* Personalize a janela modal aqui. Você pode adicionar uma imagem de fundo. */
+#boxes #dialog {
+	width:375px;
+	height:150px;
+	--border: 1px solid #000;
+}
+
+/* FIM JANELA MODAL*/

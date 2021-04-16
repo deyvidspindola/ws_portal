@@ -1,0 +1,151 @@
+10
+
+dir
+24113
+https://vsvn.sascar.com.br/svn/intranet/trunk/modulos/Relatorio/View
+https://vsvn.sascar.com.br/svn/intranet
+
+
+
+2020-08-28T12:19:01.079811Z
+24112
+renato.pereira.ext
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+292cbd3e-a9cf-48a8-a44d-77f41e396b1b
+
+rel_linhas
+dir
+
+rel_analise_consumo_satelital
+dir
+
+rel_boletagem_massiva
+dir
+
+rel_instalacao_equipamento
+dir
+
+rel_direcionamento_sinal
+dir
+
+rel_analise_telemetria
+dir
+
+rel_analise_controle_falhas
+dir
+
+rel_data_vencimento
+dir
+
+rel_posicao_estoque
+dir
+
+rel_seriais_lancados
+dir
+
+rel_descontos_conceder
+dir
+
+rel_sla_compras
+dir
+
+rel_sinalizacao_os_teclado_apagado
+dir
+
+rel_indicador_cancelamento
+dir
+
+rel_atendimento_front_end
+dir
+
+rel_analise_controle_falhas_acessorio
+dir
+
+rel_da_transacoes
+dir
+
+rel_custo_medio_produtos
+dir
+
+rel_envio_sms_retorno
+dir
+
+rel_linhas_reativacao
+dir
+
+rel_produtos_solicitados_distribuicao
+dir
+
+rel_envio_emails_em_lote
+dir
+
+rel_produto_com_seguro
+dir
+
+rel_ocorrencia_novo_irv_congelado
+dir
+
+rel_envio_emails_automaticos
+dir
+
+rel_calculo_deslocamento_tecnico
+dir
+
+rel_tempodedirecao
+dir
+
+rel_aprovacao_credito
+dir
+
+rel_embarcadores_seg
+dir
+
+rel_integracao_master
+dir
+
+rel_pagina_funcao_user
+dir
+
+rel_envio_reset_equipamento
+dir
+
+rel_equip_instalado_sem_subscription
+dir
+
+rel_report_comercial
+dir
+
+rel_obrigacao_financeira_reajuste_historico
+dir
+
+rel_debito_automatico
+dir
+
+rel_acompanhamento_os
+dir
+
+rel_acoes_portal_teste_framework
+dir
+
+rel_fotos_ordem_servico
+dir
+
+rel_analise_tratamento_os
+dir
+
+rel_produtos_reservados
+dir
+

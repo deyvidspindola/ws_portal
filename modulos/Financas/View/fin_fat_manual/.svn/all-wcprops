@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/intranet/!svn/ver/21187/trunk/modulos/Financas/View/fin_fat_manual
+END
+_outras_inf_nota.php
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/intranet/!svn/ver/16811/trunk/modulos/Financas/View/fin_fat_manual/_outras_inf_nota.php
+END
+pesquisa.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_fat_manual/pesquisa.php
+END
+mensagem.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_fat_manual/mensagem.php
+END
+editar_itens.ajax.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_fat_manual/editar_itens.ajax.php
+END
+importar.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_fat_manual/importar.php
+END
+_form_pesq_contrato.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_fat_manual/_form_pesq_contrato.php
+END
+nota_gerada.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/intranet/!svn/ver/16811/trunk/modulos/Financas/View/fin_fat_manual/nota_gerada.php
+END
+incluir_item.ajax.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_fat_manual/incluir_item.ajax.php
+END
+gerarNfNova.php
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_fat_manual/gerarNfNova.php
+END
+editar.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_fat_manual/editar.php
+END
+_form_edita_item_nf.php
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_fat_manual/_form_edita_item_nf.php
+END
+previa_nota_gerada.php
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/intranet/!svn/ver/16811/trunk/modulos/Financas/View/fin_fat_manual/previa_nota_gerada.php
+END
+_parametrizacao_parcelas.php
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_fat_manual/_parametrizacao_parcelas.php
+END
+pesquisa_obrfin.ajax.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_fat_manual/pesquisa_obrfin.ajax.php
+END
+pesquisa.ajax.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_fat_manual/pesquisa.ajax.php
+END
+listar_creditos_futuros_a_conceder.php
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_fat_manual/listar_creditos_futuros_a_conceder.php
+END
+pesquisa_contrato.ajax.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_fat_manual/pesquisa_contrato.ajax.php
+END
+_msgPrincipal.php
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/intranet/!svn/ver/21187/trunk/modulos/Financas/View/fin_fat_manual/_msgPrincipal.php
+END
+_header.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/intranet/!svn/ver/11227/trunk/modulos/Financas/View/fin_fat_manual/_header.php
+END

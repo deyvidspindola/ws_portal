@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/intranet/!svn/ver/11227/trunk/modulos/Gestao/DAO
+END
+GesMetaDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/intranet/!svn/ver/11227/trunk/modulos/Gestao/DAO/GesMetaDAO.php
+END
+GesAcoesDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/intranet/!svn/ver/11227/trunk/modulos/Gestao/DAO/GesAcoesDAO.php
+END
+GesUsuariosDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/intranet/!svn/ver/11227/trunk/modulos/Gestao/DAO/GesUsuariosDAO.php
+END
+GesIndicadorDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/intranet/!svn/ver/11227/trunk/modulos/Gestao/DAO/GesIndicadorDAO.php
+END
+GesEstruturaArvoreDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/intranet/!svn/ver/11227/trunk/modulos/Gestao/DAO/GesEstruturaArvoreDAO.php
+END
+GesLayoutDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/intranet/!svn/ver/11227/trunk/modulos/Gestao/DAO/GesLayoutDAO.php
+END
+GesPlanoAcaoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/intranet/!svn/ver/11227/trunk/modulos/Gestao/DAO/GesPlanoAcaoDAO.php
+END
+GesImportacaoDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/intranet/!svn/ver/11227/trunk/modulos/Gestao/DAO/GesImportacaoDAO.php
+END
+GesGraficoMetaDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/intranet/!svn/ver/11227/trunk/modulos/Gestao/DAO/GesGraficoMetaDAO.php
+END

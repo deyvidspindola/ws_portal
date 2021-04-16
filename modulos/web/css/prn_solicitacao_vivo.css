@@ -1,0 +1,41 @@
+
+#container-pesquisa {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+#container-pagamento {
+    position: relative;
+    text-align: center;
+    width: 100%;    
+}
+.caixa-texto{
+	width: 80%;
+	height: 70px;
+	overflow-y: auto;
+}
+.cabecalho {
+    text-align:center;
+    font-weight:bold;
+    padding: 5px;
+}
+.rodape {
+    text-align:right;
+    font-weight:bold;
+    padding: 5px;
+}
+.campoTabela1 {
+    text-align:left;
+    padding: 5px;
+}
+
+.campoTabela2 {
+    text-align:right;
+    padding: 5px;
+}
+
+input[type=button] {
+	padding-left: 12px;
+	padding-right: 12px;	
+}
+

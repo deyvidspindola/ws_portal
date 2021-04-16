@@ -1,0 +1,52 @@
+.laranja {
+    color: orange;
+    font-weight: bold;
+}
+.vermelho {
+    color: red;
+    font-weight: bold;
+}
+.verde {
+    color: green;
+    font-weight: bold;
+}
+.mouse-pointer {
+    cursor: pointer;
+}
+.totalizador {
+    background-color: #e6eaee;
+    font-weight: bold;
+    text-align: right;
+}
+.data-intervalo {
+    width: 260px !important;
+}
+.data-intervalo .calendario {
+    width: 120px !important;
+}
+.data-intervalo .ate {
+    text-align: center;
+    width: 20px;
+    font: 11px Verdana, Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+}
+.float-left {
+    float: left;
+}
+.fundo_par{
+    background-color: #b3d9ff;
+}
+.fundo_impar{
+    background-color: #E6E6FA;
+}
+.fundo_total{
+    background-color: #A9A9A9;
+    font-weight: bold;
+    text-align: right;
+}
+.img{
+    width: 30px;
+}
+.linha_invisivel td{
+    padding: 0px !important;
+}

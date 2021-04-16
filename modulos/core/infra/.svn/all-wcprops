@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/intranet/!svn/ver/20431/trunk/modulos/core/infra
+END
+config.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/intranet/!svn/ver/13452/trunk/modulos/core/infra/config.xml
+END
+autoload.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/intranet/!svn/ver/20431/trunk/modulos/core/infra/autoload.php
+END

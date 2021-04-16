@@ -1,0 +1,281 @@
+10
+
+dir
+24113
+https://vsvn.sascar.com.br/svn/intranet/trunk/modulos/Cadastro/View
+https://vsvn.sascar.com.br/svn/intranet
+
+
+
+2020-08-21T00:45:42.081501Z
+24064
+renato.pereira.ext
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+292cbd3e-a9cf-48a8-a44d-77f41e396b1b
+
+send_layout_emails
+dir
+
+cad_marca_veiculo
+dir
+
+cad_horario_pausa_item
+dir
+
+cad_chamadas_seguradora
+dir
+
+cad_grupo_controle_documento
+dir
+
+cad_grupos_de_testes
+dir
+
+cad_questionario_pos_venda
+dir
+
+cad_banco
+dir
+
+cad_gerenciadora
+dir
+
+cad_cliente
+dir
+
+cad_servico_software
+dir
+
+cad_embarcadores
+dir
+
+cad_layout_kit_boas_vindas
+dir
+
+cad_ip_ramal_central
+dir
+
+cad_grupo_trabalho
+dir
+
+cad_subtipo_veiculo
+dir
+
+cad_plano_satelital
+dir
+
+cad_motivo_teste_parcial
+dir
+
+cad_tipo_carreta
+dir
+
+cad_smartdrive_client_token
+dir
+
+cad_tipos_veiculo
+dir
+
+cad_periodo_carencia
+dir
+
+cad_parametrizacao_tipo_pausa
+dir
+
+cad_validades_equipamentos
+dir
+
+cad_embarque_configuracoes_portal
+dir
+
+cad_equipamento_projeto
+dir
+
+cad_parametrizacao_rs_calculo_repasse
+dir
+
+cad_bonificacao_representante
+dir
+
+cad_restricoes_vinculacao_acessorio
+dir
+
+cad_controle_falhas_acessorios
+dir
+
+cad_acao_motivo
+dir
+
+cad_equivalencia_equipamentos
+dir
+
+cad_controle_falhas
+dir
+
+cad_acao_os
+dir
+
+cad_modelo_trava5_roda
+dir
+
+cad_compatibilidade_acessorio_veiculo
+dir
+
+cad_layout_emails
+dir
+
+cad_modelo_ebs
+dir
+
+cad_motivo_backoffice
+dir
+
+cad_testes_ativacao
+dir
+
+cad_cidade_mapeada_bairro
+dir
+
+cad_operadores_dia
+dir
+
+cad_veiculo_roubado
+dir
+
+cad_versao_trava5_roda
+dir
+
+cad_nf_atendimento
+dir
+
+cad_retencao_impostos
+dir
+
+cad_alcada_aprovacao
+dir
+
+cad_subtipo_veiculo_obrigacao_financeira
+dir
+
+CadPlanoSatelitalView.class.php
+file
+
+
+
+
+2020-08-27T18:21:53.948378Z
+027e31ad552a1be952af9d462e490e3d
+2015-07-08T20:05:11.723632Z
+11
+a.santos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1392
+
+cad_importacao_correios
+dir
+
+cad_configuracao_equipamento
+dir
+
+cad_interv_posicionamento_equipamentos
+dir
+
+cad_subgrupo_obrigacao_fin
+dir
+
+cad_categoria_bonificacao_representante
+dir
+
+cad_atendimento_pronta_resposta
+dir
+
+cad_condicao_pagamento
+dir
+
+cad_agrupamento_classe
+dir
+
+tipo_contrato
+dir
+
+cad_info_controle_falhas
+dir
+
+cad_tipo_segmentacao
+dir
+
+cad_emergenciaCT
+dir
+
+cad_teste_obrigacao_fin
+dir
+
+cad_cicloequipamentoCT
+dir
+
+cad_itens_essenciais
+dir
+
+cad_tipos_segmento_mercado
+dir
+
+cad_falhas_acessorios_novo
+dir
+
+cad_motivo_detalhado_reclamacao
+dir
+
+cad_inpc
+dir
+
+cad_espelhamento_4gr
+dir
+
+cad_manutencao_testes_equipamento_classe_versao
+dir
+
+cad_dados_equipamento
+dir
+
+cad_motivo_susp_debito_automatico
+dir
+
+cad_modelo_veiculo
+dir
+
+cad_parametrizacao_consulta_gestor_credito
+dir
+

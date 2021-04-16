@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cron/VO
+END
+LogEnvioEmailVO.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cron/VO/LogEnvioEmailVO.php
+END
+OrdemServicoInsucessoVO.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cron/VO/OrdemServicoInsucessoVO.php
+END
+OrdemSituacaoVO.php
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cron/VO/OrdemSituacaoVO.php
+END
+CronVO.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cron/VO/CronVO.php
+END

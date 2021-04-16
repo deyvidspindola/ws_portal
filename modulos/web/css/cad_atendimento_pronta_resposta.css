@@ -1,0 +1,49 @@
+.label {
+    width: 200px;
+}
+
+.small-label {
+    width: 90px;
+}
+
+.small {
+    width: 104px;
+}
+
+.width-middle {
+    width: 200px;
+}
+
+.float-left {
+    float: left;
+}
+
+.veiculo_loader, .loader_modelo, .veiculo_loader_carreta, 
+.loader_modelo_carreta, .loader, .hide, .hide_recup, form .msg,
+.anexos {
+    display: none;
+}
+
+.red {
+	color: red;
+}
+
+.center {
+    text-align: center;
+}
+
+.remover_anexo, .preview_anexo {
+    cursor: pointer;
+}
+
+#arquivo {
+    height: 25px !important;
+}
+
+.graus, .horas, .minutos {
+    width: 60px !important;
+}
+
+#veiculo_placa, #carreta_placa {
+    text-transform: uppercase;
+}

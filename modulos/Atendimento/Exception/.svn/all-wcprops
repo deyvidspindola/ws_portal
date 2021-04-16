@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/intranet/!svn/ver/11227/trunk/modulos/Atendimento/Exception
+END
+CronException.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/intranet/!svn/ver/11227/trunk/modulos/Atendimento/Exception/CronException.php
+END
+ExceptionDAO.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/intranet/!svn/ver/11227/trunk/modulos/Atendimento/Exception/ExceptionDAO.php
+END

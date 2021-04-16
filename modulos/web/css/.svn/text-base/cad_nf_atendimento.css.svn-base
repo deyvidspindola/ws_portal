@@ -1,0 +1,24 @@
+#input_file_arquivo {
+    padding: 7px 0;
+}
+
+#insere_acionamento{
+    width: 25px;
+}
+
+.remover_anexo {
+    cursor: pointer;
+}
+
+.preview_anexo {
+    cursor: pointer;
+}
+
+#btn_salvar:disabled {
+    color: gray
+}
+
+
+.exclui_item_nf{
+    cursor: pointer;
+}

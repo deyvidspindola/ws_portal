@@ -1,0 +1,125 @@
+
+.lista_radios li {
+    color: #000000;
+    float: left;
+    font-size: 11px;
+    list-style: none outside none;
+    text-align: center;
+}
+.lista_radios {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 220px;
+}
+
+.lista_radios li input {
+    padding: 0;
+    border: 0;
+    margin: 2px 0 0 3px;
+    float: left
+}
+
+.abas {
+        border-top: 1px solid #006699; 
+        border-left: 1px solid #006699; 
+        border-right: 1px solid #006699; 
+}
+.textocheck, .textoselect {
+    float: left;
+    margin: 6px 6px 6px 0;
+    width: 139px;
+}
+
+.addcheck, .addselect {
+	float: left;
+    margin-top: 4px;
+    width: 35px;
+}
+
+.mostra_checks, .mostra_selects
+ {
+    float: left;
+    font-size: 11px;
+    width: 100%;
+}
+
+.lista_checks {
+    margin: 0;
+    padding: 0;
+}
+
+.lista_checks li {
+    list-style: none outside none;
+    line-height: 20px;
+}
+
+.lista_checks input {
+    float: left;
+    margin: 5px 3px 0 0;
+    padding: 0;
+    border: 0;
+}
+
+
+
+.lista_selects {
+    float: left;
+    margin: 0 0 6px;
+    padding: 0;
+    width: 180px;
+}
+
+.pesoerro {
+    color: red;
+    font-size: 11px;
+}
+.erroarquivo {
+    color: red;
+    font-size: 11px;
+}
+
+.questelemento-padrao > form {
+    float: left;
+    height: 0;
+}
+.botao:disabled
+{
+background:#fefefe;
+}
+
+.contemarquivo {
+     height: 37px;
+}
+
+.arquivoresposta {
+    float: left;
+    width: 239px;
+}
+
+.subtitulo {
+    color: black;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+}
+
+
+.alertas {
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    height: 18px;
+    margin-top: -18px;
+    text-align: center;
+    width: 100%;
+}
+
+.pqiitem_topico, .pqidescricao_ocorrencia{
+    width: 180px;
+
+}
+
+
+.mensagem {
+    font-size: 14px;
+}

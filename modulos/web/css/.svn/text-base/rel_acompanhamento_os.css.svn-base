@@ -1,0 +1,52 @@
+@CHARSET "ISO-8859-1";
+.campo_com_load {
+	position: relative !important;
+}
+.img_progress {
+	position/*\**/: absolute !ie;
+	margin-left: 130px;
+	right: 2px;
+	top: 4px;
+	display: none;
+}
+.campo_filtro1 {
+	width: 115px;
+}
+.campo_filtro {
+	width: 180px;
+}
+.campo_filtro_input1 {
+	width: 350px;
+}
+.campo_filtro_input1 select {
+	width: 260px;
+}
+.campo_filtro_input1 select {
+	width: 260px;
+}
+.campo_filtro_input {
+	width: 250px;
+}
+.campo_filtro_input select {
+	width: 250px;
+}
+
+.campo_cliente {
+	width: 260px;
+}
+
+.campo_filtro_input2 select {
+	width: 450px;
+}
+
+#resultado_relatorio table tr td {
+	
+}
+
+.titulo_sintetico {
+	font-size: 18px !important;
+}
+
+.titulo_sintetico td h3{
+	font-size: 12px !important;
+}

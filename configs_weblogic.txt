@@ -1,0 +1,44 @@
+## MEIO A MEIO
+-Dlog4j.configuration=file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties  
+-DSascarProperties=/u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/ 
+-DurlPortalServicos=http://sascardev1.sascar.com.br 
+-DacpParserIpPrimario=201.94.129.110  
+-DacpParserPortaPrimario=10025  
+-DacpParserIpSecundario=201.94.129.110  
+-DacpParserPortaSecundario=10025  
+-DSascarEnvironment=desenvolvimento  
+-DSascarPathWS=http://172.16.2.57/desenvolvimento/WS_Portal/ 
+-Xdebug 
+-Xnoagent 
+-Xrunjdwp:transport=dt_socket,address=4000,server=y,suspend=n
+
+## LOCAL
+-Dlog4j.configuration=file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties  
+-DSascarProperties=/u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/ 
+-DurlPortalServicos=http://172.25.0.1:8000/  
+-DacpParserIpPrimario=201.94.129.110  
+-DacpParserPortaPrimario=10025  
+-DacpParserIpSecundario=201.94.129.110  
+-DacpParserPortaSecundario=10025  
+-DSascarEnvironment=desenvolvimento  
+-DSascarPathWS=http://172.25.0.1:8000/ 
+-Xdebug 
+-Xnoagent 
+-Xrunjdwp:transport=dt_socket,address=4000,server=y,suspend=n
+
+## DEV
+-Xms1g 
+-Xmx1g 
+-Dweblogic.Stdout=/u01/weblogic/logs/domwebps01_dev/mng01node/mng01node.out 
+-Dweblogic.Stderr=/u01/weblogic/logs/domwebps01_dev/mng01node/mng01node.err 
+-Xverbose:gc 
+-Xverboselog:/u01/weblogic/logs/domwebps01_dev/mng01node/mng01node_verbose.log 
+-Dlog4j.configuration=file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties 
+-DSascarProperties=/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/ 
+-DurlPortalServicos=http://sascardev1.sascar.com.br 
+-DacpParserIpPrimario=201.94.129.110 
+-DacpParserPortaPrimario=10025 
+-DacpParserIpSecundario=201.94.129.110 
+-DacpParserPortaSecundario=10025 
+-DSascarEnvironment=desenvolvimento 
+-DSascarPathWS=http://172.16.2.57/desenvolvimento/WS_Portal/

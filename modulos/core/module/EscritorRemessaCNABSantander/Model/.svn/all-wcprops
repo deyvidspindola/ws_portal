@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/intranet/!svn/ver/18616/trunk/modulos/core/module/EscritorRemessaCNABSantander/Model
+END
+EscritorTrailerArquivoRemessaCNABSantanderModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/intranet/!svn/ver/16831/trunk/modulos/core/module/EscritorRemessaCNABSantander/Model/EscritorTrailerArquivoRemessaCNABSantanderModel.php
+END
+EscritorHeaderLoteRemessaCNABSantanderModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/intranet/!svn/ver/16831/trunk/modulos/core/module/EscritorRemessaCNABSantander/Model/EscritorHeaderLoteRemessaCNABSantanderModel.php
+END
+EscritorHeaderArquivoRemessaCNABSantanderModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/intranet/!svn/ver/16831/trunk/modulos/core/module/EscritorRemessaCNABSantander/Model/EscritorHeaderArquivoRemessaCNABSantanderModel.php
+END
+EscritorComumCNABSantanderModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/intranet/!svn/ver/16831/trunk/modulos/core/module/EscritorRemessaCNABSantander/Model/EscritorComumCNABSantanderModel.php
+END
+EscritorSegmentoPRemessaCNABSantanderModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/intranet/!svn/ver/18616/trunk/modulos/core/module/EscritorRemessaCNABSantander/Model/EscritorSegmentoPRemessaCNABSantanderModel.php
+END
+EscritorSegmentoQRemessaCNABSantanderModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/intranet/!svn/ver/16831/trunk/modulos/core/module/EscritorRemessaCNABSantander/Model/EscritorSegmentoQRemessaCNABSantanderModel.php
+END
+EscritorSegmentoRRemessaCNABSantanderModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/intranet/!svn/ver/16831/trunk/modulos/core/module/EscritorRemessaCNABSantander/Model/EscritorSegmentoRRemessaCNABSantanderModel.php
+END
+EscritorTrailerLoteRemessaCNABSantanderModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/intranet/!svn/ver/16831/trunk/modulos/core/module/EscritorRemessaCNABSantander/Model/EscritorTrailerLoteRemessaCNABSantanderModel.php
+END

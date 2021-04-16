@@ -1,0 +1,18 @@
+.repetidos {
+    color: #0066CC;
+}
+.bloqueado {
+    color: #A9A9A9 !important;
+}
+
+.order_by {
+    float: right;
+}
+.order_by div {
+    padding: 3px;
+}
+.tableTituloSort td {
+    border-spacing: 0;
+    border: none !important;
+    padding-left: 3px !important;
+}

@@ -1,0 +1,227 @@
+.highlight {
+	background-color: #FFFFC0;
+}
+
+h3{
+    margin-left: 0px;
+}
+
+.ui-widget-content{
+    border: 0;
+}
+
+.ui-widget-header {
+    background-image: none;
+    background-color: #FFFFFF;
+    border: 0;
+}
+
+.ui-corner-top{
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+#tabs .ui-tabs-nav{
+    padding: 0;
+}
+
+#tabs{
+    width: 98%;
+}
+
+#tabs .panel{
+    width: 100%;
+    background-color: #FFFFFF;
+    border: 1px solid #94ADC2;
+    clear: left;
+    margin: 0 0 10px;
+    padding: 0;
+    text-align: left;
+    vertical-align: top;
+}
+
+#tabs .ui-tabs-panel{
+    padding: 0;
+}
+
+#tabs .ui-state-default {
+    background-image: url("../../../images/fundo.gif");
+}
+
+#tabs .ui-tabs-selected {
+    background-image: url("../../../images/fundo_over3.jpg");
+}
+
+.left{
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
+
+input{
+    float: left;
+}
+
+label{
+    float: left;
+    line-height: 20px;
+    margin-left: 15px;
+}
+
+.rdo_arquivo{
+    float: none;	
+}
+
+#cmb_zona_comercial, #cmb_serie_nota, #cmb_forma_cobranca, #cmb_tipo_contrato, #cmb_contrato_situacao, #cmb_tipo_venda_ativo, #cmb_motivo_situacao_cobranca{
+    float: left;
+}
+
+#bt_pesquisar{
+    margin-top:23px;
+    margin-left:5px;
+}
+
+#bt_pesquisar{
+    margin-top:5px;
+    margin-left:5px;
+}
+
+fieldset{   
+    float: left;
+    border: 1px solid #AAAAAA;
+    background-color: #FFFFFF;
+    margin-left: 11px;
+    height: 40px;
+}
+
+.botao{
+    float: none;
+    vertical-align: baseline;
+}
+
+.radio{
+    margin-top: 3px;
+    margin-left: 10px;
+}
+
+.checkbox{
+    margin-top: 2px;
+    margin-left: 5px;
+    border: 0px !important;
+}
+
+.chk_ecclclioid,.chk_eccloid,.chk_clioid,.chk_titoid,.chk_titoid_disabled,.chk_titoid,.chk_ectoid,.chk_ecsoid, .chk_zona_comercial, .chk_todas_zona_comercial, .chk_serie_nota, .chk_todas_serie_nota, .chk_forma_cobranca, .chk_todas_forma_cobranca, .chk_tipo_contrato, .chk_todos_tipo_contrato, 
+.chk_contrato_situacao, .chk_todos_contrato_situacao,
+.chk_tipo_venda_ativo, .chk_todos_tipo_venda_ativo, 
+.chk_motivo_situacao_cobranca, .chk_todos_motivo_situacao_cobranca
+{
+    float: none;
+    border: 0px !important;
+    background-color: transparent;
+}
+
+.parametros_campo_desabilitado{
+    color: #AAAAAA;
+}
+
+#tipo_visu, #ordem, #apresentar {
+	width: 122px;
+}
+
+#centro_busca, #tipo_item_busca, #grupo_busca, #plcoid_busca, #item_fr_normal, #produto{
+	width: 380px;
+}
+
+.btn_previa_ir {
+	width: 80px;
+	margin-left: 4px;
+}
+
+.fieldset_previa_operacao {
+	padding: 5px; 
+	width: 220px; 
+	height: 70px;
+}
+
+.fieldset_previa_tipo {
+	padding: 5px; 
+	width: 140px; 
+	height: 70px;
+}
+.select_previa_nome_filtro {
+	width: 354px;
+}
+
+.input_previa_cliente {
+	width: 400px;
+}
+
+.previa_field_container {
+	padding-bottom: 5px;
+}
+
+.previa_field_container select {
+	margin: 0;
+}
+
+.previa_field_container label {
+	float: left;
+}
+.previa_nome_filtro_loading {
+	display: none;
+}
+.previa_campo_desabilitato {
+	background-color: #efefef;
+}
+
+.previa_relatorio_fatura thead td {
+	padding: 2px;
+	text-align: center;
+}
+
+#resultado_relatorio {
+	margin: auto;
+}
+.previa_relatorio_fatura tbody tr td {
+	padding: 2px
+}
+.previa_relatorio_fatura tfoot tr td {
+    padding: 2px
+}
+
+.alinhamento_central td {
+	text-align: center;
+}
+.previa_titulo {
+	margin-left: 20px;
+}
+.sem_margin {
+	margin: 0px !important;
+}
+
+#previa_corpo_rel_cliente {
+	
+	padding: 0 !important;
+	overflow: auto !important;
+}
+.linha_ancora_marcada {
+	background-color: #eee;
+}
+.selecionado {
+	background-color: #bbf;
+}
+.previa_campo_obrigatorio_marcado {
+	background-color: rgb(255, 255, 192);
+}
+
+#msg, #msg_novo_motivo, #msg_ambiguidade {
+    float: left;
+    width: 100%;
+}
+
+.loading {
+	text-align: center;
+	display: none;
+}

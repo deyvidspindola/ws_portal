@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/intranet/!svn/ver/23026/trunk/modulos/Cron/Lib
+END
+credencial.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/intranet/!svn/ver/19406/trunk/modulos/Cron/Lib/credencial.php
+END
+credencial_desenvolvimento.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/intranet/!svn/ver/11333/trunk/modulos/Cron/Lib/credencial_desenvolvimento.php
+END
+funcoesEBS.php
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cron/Lib/funcoesEBS.php
+END
+credencial_teste.php
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/intranet/!svn/ver/11333/trunk/modulos/Cron/Lib/credencial_teste.php
+END
+CronDate.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cron/Lib/CronDate.php
+END
+logEBS.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cron/Lib/logEBS.class.php
+END
+enviarEmail.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cron/Lib/enviarEmail.class.php
+END
+credencial_homologacao.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/intranet/!svn/ver/11333/trunk/modulos/Cron/Lib/credencial_homologacao.php
+END
+credencial_producao.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/intranet/!svn/ver/23026/trunk/modulos/Cron/Lib/credencial_producao.php
+END
+logEBSDetalhamento.class.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cron/Lib/logEBSDetalhamento.class.php
+END
+FuncoesBancos.php
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/intranet/!svn/ver/11227/trunk/modulos/Cron/Lib/FuncoesBancos.php
+END

@@ -1,0 +1,90 @@
+.campo.maior.descricao_duvidas ul li {
+    display: list-item;
+    list-style: disc inside none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.descricao_duvidas {
+	display: none;
+}
+
+.realiza_pesquisa_endereco {
+    margin-top: 1px;
+}
+
+.endereco_para_pesquisa {
+    width: 380px !important;
+}
+
+.endereco_para_pesquisa_ie {
+    width: 370px !important;
+}
+
+.loader {
+	float: left; margin-top: 4px; margin-left: 10px;display:none;
+}
+
+.medio .campo.correios_cep {
+    width: 108px !important;
+}
+
+
+.box label {
+    display: block;
+}
+
+.buttonCopiar {
+vertical-align: bottom;
+}
+
+.links li {
+display: inline-block !important;
+}
+
+#enderecoprincipal, #enderecocobranca, #enderecoentrega {border-top:1px solid #94adc2 !important;}
+
+.blocked {
+	-moz-opacity: 0.50;
+	opacity:.50;
+	filter: alpha(opacity=50);
+}
+.blocked a {
+	cursor: default;
+}
+.blocked a:hover {
+	text-decoration: none;
+}
+
+.erroarquivo {
+    color: red;
+}
+
+.sucessoarquivo {
+    color: #3B5CA1;
+}
+
+input.campo.telefone {
+    width: 120px;
+}
+
+.idOperacao {
+	cursor: pointer;
+}
+
+.menor select {
+    width: 110px !important;
+}
+img.grayscale {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}.excluirAnexo {
+    float: left;
+    margin-right: 7px;
+    margin-top: -1px;
+}
+select#clifaturamento, select#clifat_locacao {width: 250px !important}
+input#cliret_iss_perc {width: 100px !important}
+select#clicdt_inicial, select#clicdt_final {width: 110px !important}
+
+span.td_acao_excluir {width: 25px !important; float: left}

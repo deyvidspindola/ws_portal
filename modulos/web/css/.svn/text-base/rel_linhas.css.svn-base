@@ -1,0 +1,12 @@
+@CHARSET "ISO-8859-1";
+.resultado_relatorio tbody tr td {
+	font-size: 9px !important;
+}
+.bt_exportar {
+	margin-right: 2px;
+}
+
+#arquivo {
+	height: 25px;
+	*height: 20px; /* IE */
+}

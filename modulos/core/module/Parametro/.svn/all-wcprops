@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/intranet/!svn/ver/23456/trunk/modulos/core/module/Parametro
+END
+ParametroCobrancaRegistrada.php
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/intranet/!svn/ver/23456/trunk/modulos/core/module/Parametro/ParametroCobrancaRegistrada.php
+END
+ParametroNotaFiscalEletronica.php
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/intranet/!svn/ver/17242/trunk/modulos/core/module/Parametro/ParametroNotaFiscalEletronica.php
+END
+ParametroIntegracaoTotvs.php
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/intranet/!svn/ver/20650/trunk/modulos/core/module/Parametro/ParametroIntegracaoTotvs.php
+END

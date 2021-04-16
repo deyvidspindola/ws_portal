@@ -1,0 +1,20 @@
+@CHARSET "ISO-8859-1";
+
+.field_label {
+	width: 280px;
+	text-align: right
+}
+
+#resultado_relatorio_container {
+	width: 300px;
+	margin: auto;
+	padding: 5px;
+}
+
+.botao {
+	width: 100px;
+}
+
+#botao_excluir {
+	margin-left: 30px;
+}

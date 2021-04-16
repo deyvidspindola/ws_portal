@@ -1,0 +1,28 @@
+.float-left {
+    float: left;
+}
+
+.calendar-margin {
+    margin: 1px 0 0 4px;
+}
+
+.calendar-label-margin {
+    margin: 3px 10px;
+}
+
+.small {
+    width: 124px;
+}
+
+.medium {
+    width: 272px;
+}
+
+.btn_pesquisar {
+    background: url("../../../images/fd_tr_principal.gif") repeat;
+    border: 1px solid #999999;
+    cursor: pointer;
+    font-size: 8pt;
+    margin: 1px 5px;
+    padding: 1px 5px;
+}

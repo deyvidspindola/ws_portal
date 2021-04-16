@@ -1,0 +1,20 @@
+<?php
+
+/**
+ * View helpers da FinRescisão
+ * Funções utilizadas na exibição de dados
+ */
+ 
+/**
+ * Formata um valor numérico em formato monetário (999.999,99)
+ * @param   float|int   $value
+ * @return  string
+ */
+function toMoney($value)
+{
+    ob_start();
+    echo (float) $value;
+    ob_clean();    
+    
+    return number_format((float) $value, 2, ',', '.');
+}

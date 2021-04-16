@@ -1,0 +1,89 @@
+10
+
+dir
+24113
+https://vsvn.sascar.com.br/svn/intranet/trunk/modulos/Manutencao/View
+https://vsvn.sascar.com.br/svn/intranet
+
+
+
+2019-12-10T21:03:56.131994Z
+22911
+walter.stival.ext
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+292cbd3e-a9cf-48a8-a44d-77f41e396b1b
+
+MANInsereTextoContratoView.php
+file
+
+
+
+
+2020-08-27T18:21:51.837389Z
+f7d2105ec0603d4bf2dee52b3c7834cc
+2019-07-09T14:23:55.967404Z
+21598
+ericks.vargas.ext
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+452
+
+man_cobranca_produtos_divergentes
+dir
+
+man_correcao_baixa_estoque
+dir
+
+man_tempo_minimo_servico
+dir
+
+man_parametrizacao_smart_agenda
+dir
+
+man_custos_apagar
+dir
+
+parametrizacao_ura
+dir
+
+man_cancelamento_automatico_os
+dir
+
+man_insere_texto_contrato
+dir
+
+man_politica_desconto
+dir
+

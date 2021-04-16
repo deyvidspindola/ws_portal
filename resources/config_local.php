@@ -120,51 +120,51 @@ switch ($ambiente) {
 
         define('_DBSTRING_SIGGO_DBNAME_' , 'sascar_desenvolvimento');
         define('_DBSTRING_SIGGO_HOST_' , '10.1.101.14');
-        define('_DBSTRING_SIGGO_USER_' , 'emerson.chiesse');
-        define('_DBSTRING_SIGGO_PASSWORD_' , '');
+        define('_DBSTRING_SIGGO_USER_' , 'deyvid.s.ext');
+        define('_DBSTRING_SIGGO_PASSWORD_' , 'D##$yvid@1361');
 
         define('_DBSTRING_GERENCIADORA_HOST_' , '10.1.110.2');
         define('_DBSTRING_GERENCIADORA_DBNAME_' , 'gerenciadora');
-        define('_DBSTRING_GERENCIADORA_USER_' , 'emerson.chiesse');
-        define('_DBSTRING_GERENCIADORA_PASSWORD_' , '');
+        define('_DBSTRING_GERENCIADORA_USER_' , 'deyvid.s.ext');
+        define('_DBSTRING_GERENCIADORA_PASSWORD_' , 'D##$yvid@1361');
 
         define('_DBSTRING_BDGERENCIADORA_DOIS_DBNAME_' , 'gerenciadora2');
         define('_DBSTRING_BDGERENCIADORA_DOIS_HOST_' , '10.1.110.2');
-        define('_DBSTRING_BDGERENCIADORA_DOIS_USER_' , 'emerson.chiesse');
-        define('_DBSTRING_BDGERENCIADORA_DOIS_PASSWORD_' , '');
+        define('_DBSTRING_BDGERENCIADORA_DOIS_USER_' , 'deyvid.s.ext');
+        define('_DBSTRING_BDGERENCIADORA_DOIS_PASSWORD_' , 'D##$yvid@1361');
 
         define('_DBSTRING_CALLCENTER_DBNAME_' , 'callcenter');
         define('_DBSTRING_CALLCENTER_HOST_' , '10.1.110.2');
-        define('_DBSTRING_CALLCENTER_USER_' , 'emerson.chiesse');
-        define('_DBSTRING_CALLCENTER_PASSWORD_' , '');
+        define('_DBSTRING_CALLCENTER_USER_' , 'deyvid.s.ext');
+        define('_DBSTRING_CALLCENTER_PASSWORD_' , 'D##$yvid@1361');
 
         define('_DBSTRING_COMANDOS_DBNAME_' , 'servidor_comandos');
         define('_DBSTRING_COMANDOS_HOST_' , '10.1.110.2');
-        define('_DBSTRING_COMANDOS_USER_' , 'emerson.chiesse');
-        define('_DBSTRING_COMANDOS_PASSWORD_' , '');
+        define('_DBSTRING_COMANDOS_USER_' , 'deyvid.s.ext');
+        define('_DBSTRING_COMANDOS_PASSWORD_' , 'D##$yvid@1361');
 
         define('_DBSTRING_DBNAME_' , 'sascar_desenvolvimento');
         define('_DBSTRING_HOST_' , '10.1.110.14');
-        define('_DBSTRING_USER_' , 'emerson.chiesse');
-        define('_DBSTRING_PASSWORD_' , '');
+        define('_DBSTRING_USER_' , 'deyvid.s.ext');
+        define('_DBSTRING_PASSWORD_' , 'D##$yvid@1361');
 
         define('_DBSTRING_AVL_DBNAME_' , 'avl');
         define('_DBSTRING_AVL_HOST_' , '10.1.110.2');
-        define('_DBSTRING_AVL_USER_' , 'emerson.chiesse');
-        define('_DBSTRING_AVL_PASSWORD_' , '');
+        define('_DBSTRING_AVL_USER_' , 'deyvid.s.ext');
+        define('_DBSTRING_AVL_PASSWORD_' , 'D##$yvid@1361');
 
         define('_DBSTRING_BDCENTRAL_DBNAME_' , 'bdcentral');
         define('_DBSTRING_BDCENTRAL_HOST_' , '10.1.110.2');
-        define('_DBSTRING_BDCENTRAL_USER_' , 'emerson.chiesse');
-        define('_DBSTRING_BDCENTRAL_PASSWORD_' , '');
+        define('_DBSTRING_BDCENTRAL_USER_' , 'deyvid.s.ext');
+        define('_DBSTRING_BDCENTRAL_PASSWORD_' , 'D##$yvid@1361');
 
         define('_DBSTRING_BLACKBOX_DBNAME_' , 'blackbox_devel');
         define('_DBSTRING_BLACKBOX_HOST_' , '10.1.110.2');
-        define('_DBSTRING_BLACKBOX_USER_' , 'emerson.chiesse');
-        define('_DBSTRING_BLACKBOX_PASSWORD_' , '');
+        define('_DBSTRING_BLACKBOX_USER_' , 'deyvid.s.ext');
+        define('_DBSTRING_BLACKBOX_PASSWORD_' , 'D##$yvid@1361');
 
         define('ORA_USER' , 'PRD_WEBCENTER');
-        define('ORA_SENHA' , 'WeBSASCAR2021');
+        define('ORA_SENHA' , 'Trocar@2021');
         define('ORA_BD' , '(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.1.110.47)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=devdbpr)))');
 
 
@@ -335,7 +335,7 @@ switch ($ambiente) {
 $_SESSION["servidor_teste"]     = 1; //? Servidor de teste
 
 //string de conex?o para a classe ProdutoComSeguro.php
-$dbstringSiggo = "dbname=". _DBSTRING_SIGGO_DBNAME_ ." host=". _DBSTRING_SIGGO_HOST_ ." user=". _DBSTRING_SIGGO_USER_;
+$dbstringSiggo = "dbname=". _DBSTRING_SIGGO_DBNAME_ ." host=". _DBSTRING_SIGGO_HOST_ ." user=". _DBSTRING_SIGGO_USER_." password=". _DBSTRING_SIGGO_PASSWORD_;
 
 $local_lib = explode("/",$_SERVER['SCRIPT_FILENAME']);
 
@@ -354,7 +354,7 @@ $dbstring_avl 	      = "dbname=". _DBSTRING_AVL_DBNAME_ ." host=". _DBSTRING_AVL
 $conn = pg_connect($dbstring);
 $connComandos = pg_connect($dbstringComandos);
 
-$dbstring_blackbox = "dbname=". _DBSTRING_BLACKBOX_DBNAME_ ." host=". _DBSTRING_BLACKBOX_HOST_ ." user=". _DBSTRING_BLACKBOX_USER_;
+$dbstring_blackbox = "dbname=". _DBSTRING_BLACKBOX_DBNAME_ ." host=". _DBSTRING_BLACKBOX_HOST_ ." user=". _DBSTRING_BLACKBOX_USER_." password=". _DBSTRING_BLACKBOX_PASSWORD_;
 $conn_blackbox = pg_connect($dbstring_blackbox);
 //$connSiggo = pg_connect($dbstringSiggo);
 

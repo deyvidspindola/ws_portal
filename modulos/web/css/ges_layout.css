@@ -1,0 +1,204 @@
+body.iframe_gestao{
+    margin-right: 20px !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+}
+ 
+body.iframe_gestao div.modulo_titulo, 
+    body.iframe_gestao div.modulo_conteudo {
+    margin: 0 !important;
+}
+
+
+#titulo_principal{
+}
+
+#conteudo_princial{
+	width: 100%\9;
+}
+
+#layout-content{
+	width: 80%;
+	/*width: 77%\9;*/
+	width: auto\9;
+	float: right;
+}
+
+#layout-content .layout-no-margin{
+	margin: 0;
+}
+
+
+#layout-menu{
+	background: none repeat scroll 0 0 #BAD0E5;
+    height: 70px;
+}
+
+#layout-menu ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+#layout-menu ul li{
+	display: block;
+    float: left;
+    list-style: none outside none;
+    margin: 12px 0 0;
+}
+
+#layout-menu ul li a{
+    display: block;
+    font-size: 11px;
+    margin: 0 3px;
+    padding: 35px 15px 2px;
+}
+
+#layout-menu ul li a:hover {
+	text-decoration: none;
+}
+
+
+#layout-sidebar{
+	width: 20%;
+	width: 20%\9;
+	height: 100%;
+	float: left;
+	background: #BAD0E5;
+	position: relative;
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+
+
+#titulo_arvore, .titulo_arvore{
+	 background: url("../../../images/icones/arvore-icone.png") no-repeat scroll 2px top transparent;
+    cursor: pointer;
+    font-size: 12px;
+    height: 24px;
+    line-height: 26px;
+    margin-top: 20px;
+    padding-left: 32px;
+    text-align: left;
+}
+
+#link_acao, .link_acao{
+	 background: url("../../../images/icones/flag_yellow.png") no-repeat scroll 2px top transparent;
+    cursor: pointer;
+    font-size: 16px;
+    height: 40px;
+    font-weight: bold;
+    line-height: 26px;
+    margin-top: 20px;
+    padding-left: 35px;
+    text-align: left;
+}
+
+#link_planoacao, .link_planoacao{
+	 background: url("../../../images/icones/flag_green.png") no-repeat scroll 2px top transparent;
+    cursor: pointer;
+    font-size: 16px;
+    height: 40px;
+    font-weight: bold;
+    line-height: 26px;
+    margin-top: 20px;
+    padding-left: 35px;
+    text-align: left;
+}
+
+#ano_referencia{
+	width: 60px;
+}
+
+#layout-sidebar #info {
+    font-size: 11px;
+    height: 49px;
+    margin-top: 3px;
+    margin-left: 5px;
+    width: 95%;
+    position: relative;
+    background: #BAD0E5;
+}
+
+#layout-sidebar #arvore {
+    font-size: 12px;
+    margin-top: -2px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    width: 233px;
+    overflow-x: auto;
+    height: 550px;
+}
+
+#conteudo_princial{
+	padding: 0px !important;
+}
+
+#layout-principal-content {
+	 /*padding: 5px;*/
+}
+#ges_conteudo{
+    margin: 10px;
+}
+
+.inserir{
+	background: url('../../../images/icones/plus.png') no-repeat center 3px transparent;
+}
+
+.alterar{
+	background: url('../../../images/icones/edit-pencil.png') no-repeat center 3px transparent;
+}
+
+.usuario{
+	background: url('../../../images/icones/users.png') no-repeat center 3px transparent;
+}
+
+.arvore-menu{
+	background: url('../../../images/icones/tree.png') no-repeat center 3px transparent;
+}
+
+.importacao {
+	background: url('../../../images/icones/import.png') no-repeat center 3px transparent;
+}
+
+.metas{
+	background: url('../../../images/icones/meta.png') no-repeat center 3px transparent;
+}
+
+.indicadores{
+	background: url('../../../images/icones/indicadores.png') no-repeat center 3px transparent;
+}
+
+.delete{
+	background: url('../../../images/icones/delete-icon.png') no-repeat center 3px transparent;
+}
+
+.esconde-arvore{
+	display: none !important;
+}
+
+#navegacao-arvore{
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+}
+
+#bt_voltar_arvore{
+	background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #94ADC2;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0 auto;
+    padding: 5px 10px;
+    width: 200px;
+}
+
+#bt_voltar_arvore:hover{
+	background: #E6EAEE;
+}
+
+
+.ui-fancytree li {
+	height: 30px\9;
+	margin-bottom: 10px\9;
+}

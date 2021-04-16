@@ -1,0 +1,35 @@
+.mbutton {
+	border: 1px solid #94adc2;
+	background: #e6eaee; 
+	padding:4px 10px; 
+	padding-left: 13px;
+	font-size:14px; 
+	font-weight:bold; 
+	letter-spacing: 3px;
+}
+
+.mbuttonadd {
+	display:block; 
+	margin-bottom:20px;
+}
+
+.mselect {
+	height:250px;
+}
+
+div.maior {
+	display:block;
+	width:100%;
+}
+
+div.maior table {
+	width:100%;	
+}
+
+#lbl_acoes_vinc {
+	margin-right: 277px;
+}
+
+*:disabled {
+	opacity: 0.6;
+}

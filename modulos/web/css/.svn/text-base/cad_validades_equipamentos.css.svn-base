@@ -1,0 +1,41 @@
+/*#mensagem {display: none;}*/
+.campo.maior.descricao_duvidas ul li {
+    display: list-item;
+    list-style: disc inside none;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.descricao_duvidas {
+	display: none;
+}
+
+.realiza_pesquisa_endereco {
+    margin-top: 1px;
+}
+
+.endereco_para_pesquisa {
+    width: 250px !important;
+}
+
+.loader {
+	float: left; margin-top: 4px; margin-left: 10px;display:none;
+}
+
+.campo.correios_cep {
+    width: 108px !important;
+}
+
+
+.box label {
+    display: block;
+}
+
+.buttonCopiar {
+vertical-align: bottom;
+}
+
+.links li {
+display: inline-block !important;
+}
+
+#enderecoprincipal, #enderecocobranca, #enderecoentrega {border-top:1px solid #94adc2 !important;}

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/intranet/!svn/ver/17589/trunk/modulos/core/module/EscritorRemessaRPSBarueri/Model
+END
+EscritorTrailerTipo9ArquivoRemessaRPSBarueriModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/intranet/!svn/ver/17242/trunk/modulos/core/module/EscritorRemessaRPSBarueri/Model/EscritorTrailerTipo9ArquivoRemessaRPSBarueriModel.php
+END
+EscritorComumRPSBarueriModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/intranet/!svn/ver/17242/trunk/modulos/core/module/EscritorRemessaRPSBarueri/Model/EscritorComumRPSBarueriModel.php
+END
+EscritorDetalheTipo2ArquivoRemessaRPSBarueriModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/intranet/!svn/ver/17589/trunk/modulos/core/module/EscritorRemessaRPSBarueri/Model/EscritorDetalheTipo2ArquivoRemessaRPSBarueriModel.php
+END
+EscritorDetalheTipo3ArquivoRemessaRPSBarueriModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/intranet/!svn/ver/17242/trunk/modulos/core/module/EscritorRemessaRPSBarueri/Model/EscritorDetalheTipo3ArquivoRemessaRPSBarueriModel.php
+END
+EscritorHeaderTipo1ArquivoRemessaRPSBarueriModel.php
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/intranet/!svn/ver/17242/trunk/modulos/core/module/EscritorRemessaRPSBarueri/Model/EscritorHeaderTipo1ArquivoRemessaRPSBarueriModel.php
+END

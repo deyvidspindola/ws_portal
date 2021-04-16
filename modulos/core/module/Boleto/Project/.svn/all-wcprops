@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/intranet/!svn/ver/16831/trunk/modulos/core/module/Boleto/Project
+END
+autoloader.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/intranet/!svn/ver/13452/trunk/modulos/core/module/Boleto/Project/autoloader.php
+END
+bootstrap_phpunit.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/intranet/!svn/ver/13452/trunk/modulos/core/module/Boleto/Project/bootstrap_phpunit.php
+END

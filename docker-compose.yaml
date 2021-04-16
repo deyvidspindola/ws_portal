@@ -1,0 +1,30 @@
+version: "3.7"
+services:
+    app:
+        environment:
+            - APP_DEBUG_MODE=True
+            - APP_TEST_MODE=False
+        container_name: ws_portal
+        image: ws_portal:dev
+        build:
+            context: ./resources
+            args:
+            - IMAGE_DESCRIPTION=WS Portal, development image
+        ports:
+            - 8000:80
+        volumes:
+            - ./app:/var/www/html
+            - ./logs:/var/www/log
+            - ./modulos:/var/www/html/modulos
+            - ./resources/entrypoint.sh:/tmp/entrypoint.sh:ro
+            - ./resources/hosts:/etc/hosts
+            - ./resources/php.ini:/etc/php5/cli/php.ini
+            - ./resources/php.ini:/etc/php5/apache2/php.ini
+            - ./resources/config_local.php:/var/www/html/lib/config_local.php
+            - ./resources/index.php:/var/www/html/index.php
+            - ./resources/teste_ws.php:/var/www/html/ClientesTestes/teste_ws.php
+#        healthcheck:
+#            test: curl -f http://localhost || exit 1
+#            interval: 10s
+#            retries: 3
+#            start_period: 30s
