@@ -163,7 +163,7 @@ switch ($ambiente) {
         define('_DBSTRING_BLACKBOX_USER_' , 'deyvid.s.ext');
         define('_DBSTRING_BLACKBOX_PASSWORD_' , 'D##$yvid@1361');
 
-        define('ORA_USER' , 'PRD_WEBCENTER');
+        define('ORA_USER' , 'squad_devices');
         define('ORA_SENHA' , 'Trocar@2021');
         define('ORA_BD' , '(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=10.1.110.47)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=devdbpr)))');
 
