@@ -30,6 +30,10 @@ define('_MODULEDIR_'    , "/var/www/html/modulos/");
 define('_PORTALDIR_'    , "/var/www/html/");
 define('_WS_PORTAL_'    , "http://172.18.0.1:8000/");
 
+#Senhas do banco de dados
+define('_USER_', 'deyvid.s.ext');
+define('_PASS_', '.sascar2021');
+
 switch ($ambiente) {
 
     case 'dev':
@@ -120,48 +124,48 @@ switch ($ambiente) {
 
         define('_DBSTRING_SIGGO_DBNAME_' , 'sascar_desenvolvimento');
         define('_DBSTRING_SIGGO_HOST_' , '10.1.101.14');
-        define('_DBSTRING_SIGGO_USER_' , 'deyvid.s.ext');
-        define('_DBSTRING_SIGGO_PASSWORD_' , 'D##$yvid@1361');
+        define('_DBSTRING_SIGGO_USER_' , _USER_);
+        define('_DBSTRING_SIGGO_PASSWORD_' , _PASS_);
 
         define('_DBSTRING_GERENCIADORA_HOST_' , '10.1.110.2');
         define('_DBSTRING_GERENCIADORA_DBNAME_' , 'gerenciadora');
-        define('_DBSTRING_GERENCIADORA_USER_' , 'deyvid.s.ext');
-        define('_DBSTRING_GERENCIADORA_PASSWORD_' , 'D##$yvid@1361');
+        define('_DBSTRING_GERENCIADORA_USER_' , _USER_);
+        define('_DBSTRING_GERENCIADORA_PASSWORD_' , _PASS_);
 
         define('_DBSTRING_BDGERENCIADORA_DOIS_DBNAME_' , 'gerenciadora2');
         define('_DBSTRING_BDGERENCIADORA_DOIS_HOST_' , '10.1.110.2');
-        define('_DBSTRING_BDGERENCIADORA_DOIS_USER_' , 'deyvid.s.ext');
-        define('_DBSTRING_BDGERENCIADORA_DOIS_PASSWORD_' , 'D##$yvid@1361');
+        define('_DBSTRING_BDGERENCIADORA_DOIS_USER_' , _USER_);
+        define('_DBSTRING_BDGERENCIADORA_DOIS_PASSWORD_' , _PASS_);
 
         define('_DBSTRING_CALLCENTER_DBNAME_' , 'callcenter');
         define('_DBSTRING_CALLCENTER_HOST_' , '10.1.110.2');
-        define('_DBSTRING_CALLCENTER_USER_' , 'deyvid.s.ext');
-        define('_DBSTRING_CALLCENTER_PASSWORD_' , 'D##$yvid@1361');
+        define('_DBSTRING_CALLCENTER_USER_' , _USER_);
+        define('_DBSTRING_CALLCENTER_PASSWORD_' , _PASS_);
 
         define('_DBSTRING_COMANDOS_DBNAME_' , 'servidor_comandos');
         define('_DBSTRING_COMANDOS_HOST_' , '10.1.110.2');
-        define('_DBSTRING_COMANDOS_USER_' , 'deyvid.s.ext');
-        define('_DBSTRING_COMANDOS_PASSWORD_' , 'D##$yvid@1361');
+        define('_DBSTRING_COMANDOS_USER_' , _USER_);
+        define('_DBSTRING_COMANDOS_PASSWORD_' , _PASS_);
 
         define('_DBSTRING_DBNAME_' , 'sascar_desenvolvimento');
         define('_DBSTRING_HOST_' , '10.1.110.14');
-        define('_DBSTRING_USER_' , 'deyvid.s.ext');
-        define('_DBSTRING_PASSWORD_' , 'D##$yvid@1361');
+        define('_DBSTRING_USER_' , _USER_);
+        define('_DBSTRING_PASSWORD_' , _PASS_);
 
         define('_DBSTRING_AVL_DBNAME_' , 'avl');
         define('_DBSTRING_AVL_HOST_' , '10.1.110.2');
-        define('_DBSTRING_AVL_USER_' , 'deyvid.s.ext');
-        define('_DBSTRING_AVL_PASSWORD_' , 'D##$yvid@1361');
+        define('_DBSTRING_AVL_USER_' , _USER_);
+        define('_DBSTRING_AVL_PASSWORD_' , _PASS_);
 
         define('_DBSTRING_BDCENTRAL_DBNAME_' , 'bdcentral');
         define('_DBSTRING_BDCENTRAL_HOST_' , '10.1.110.2');
-        define('_DBSTRING_BDCENTRAL_USER_' , 'deyvid.s.ext');
-        define('_DBSTRING_BDCENTRAL_PASSWORD_' , 'D##$yvid@1361');
+        define('_DBSTRING_BDCENTRAL_USER_' , _USER_);
+        define('_DBSTRING_BDCENTRAL_PASSWORD_' , _PASS_);
 
         define('_DBSTRING_BLACKBOX_DBNAME_' , 'blackbox_devel');
         define('_DBSTRING_BLACKBOX_HOST_' , '10.1.110.2');
-        define('_DBSTRING_BLACKBOX_USER_' , 'deyvid.s.ext');
-        define('_DBSTRING_BLACKBOX_PASSWORD_' , 'D##$yvid@1361');
+        define('_DBSTRING_BLACKBOX_USER_' , _USER_);
+        define('_DBSTRING_BLACKBOX_PASSWORD_' , _PASS_);
 
         define('ORA_USER' , 'squad_devices');
         define('ORA_SENHA' , 'Trocar@2021');
