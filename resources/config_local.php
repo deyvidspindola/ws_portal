@@ -86,6 +86,9 @@ switch ($ambiente) {
         define('_SERVIDOR_COMANDOS_', '10.1.110.20');
         define('_SERVIDOR_BINARIO_', '10.1.110.20');
 
+        # Define o endereco da API de sensores TPMS
+        define('_API_TPMS_', 'https://tpms-last-information-v1-dev-core-fleets.app-dev.sascar.com.br/tpms-last-information/client/%d/getByVehicleId/%d');
+
         /*
         * Definição de variáveis para CargoTracck
         */
@@ -245,7 +248,8 @@ switch ($ambiente) {
         define('_XMLRPC_', 'http://hom1.xmlrpc.sascar.com.br/xmlrpc/enviar_comando');
 
         // DEFINE dos Servidores de Comandos e Binario
-        define('_SERVIDOR_COMANDOS_', '10.1.101.17');    // Homologação
+        define('_SERVIDOR_COMANDOS_', '10.1.110.140');    // DEV
+//        define('_SERVIDOR_COMANDOS_', '10.1.101.20');    // Homologação
         define('_SERVIDOR_BINARIO_', '10.1.101.17');     // Homologação
 
         /*
