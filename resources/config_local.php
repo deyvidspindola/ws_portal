@@ -4,7 +4,7 @@ $ambiente = 'dev';
 
 //Defines Padroes
 define("_SISTEMA_NOME_" , "PORTAL_SERVICOS");
-define('_TITULO_'       , "SASCAR - Sistema Ativo de SeguranÁa Automotiva");
+define('_TITULO_'       , "SASCAR - Sistema Ativo de Seguran√ßa Automotiva");
 define('_PROTOCOLO_'    , "http://");
 
 // Logs PHP PORTAL DE SERVICOS
@@ -16,13 +16,13 @@ define('_LOG_PORTAL_COMANDOS_', _PATH_LOG_ . 'ws_portal_comandos_desenv_' . date
 define('_LOG_XML_PARSER_', _PATH_LOG_ . 'ws_portal_xml_parser_desenv_' . date('Ymd') . '.log');
 # Define para o caminho do LOG de posicao valida
 define('_LOG_POSICAO_VALIDA_', _PATH_LOG_ . 'ws_portal_posicaovalida_desenv_' . date('Ymd') . '.log');
-# Define para o caminho do LOG das IntegraÁıes com Webservices
+# Define para o caminho do LOG das Integra√ß√µes com Webservices
 define('_LOG_WEBSERVICES_', _PATH_LOG_ . 'ws_portal_integracao_desenv_' . date('Ymd') . '.log');
 # Define para o caminho do LOG do nusoap
 define('_LOG_PORTAL_NUSOAP_', _PATH_LOG_ . 'ws_portal_nusoap_desenv_' . date('Ymd') . '.log');
-# Define para o caminho do LOG das IntegraÁıes com Webservices
+# Define para o caminho do LOG das Integra√ß√µes com Webservices
 define('_LOG_WEBSERVICES_'   ,'/var/www/log/ws_portal_integracao_'.date('Ymd').'.log');
-// DUM 80333 - diretÛrio com arquivos NFe
+// DUM 80333 - diret√≥rio com arquivos NFe
 define('_DANFEDIR_', '/var/www/html/danfe_nfe/');
 // --
 
@@ -31,8 +31,8 @@ define('_PORTALDIR_'    , "/var/www/html/");
 define('_WS_PORTAL_'    , "http://172.18.0.1:8000/");
 
 #Senhas do banco de dados
-define('_USER_', 'deyvid.s.ext');
-define('_PASS_', '.sascar2021');
+define('_USER_', 'INFORMAR USUARIO DE REDE');
+define('_PASS_', 'INFORMAR A SENHA DE REDE');
 
 switch ($ambiente) {
 
@@ -43,7 +43,7 @@ switch ($ambiente) {
         define('_XMLRPCGERAL_', "http://telemetriadev1.sascar.com.br/xmlrpc/enviar_comando_geral");
         define("_AMBIENTE_", "DESENVOLVIMENTO");
 
-        /** FIM BLOCO: CONFIGURA«’ES ACESSO GERENCIADORA */
+        /** FIM BLOCO: CONFIGURA√á√ïES ACESSO GERENCIADORA */
         define('__INSTRUCAO_TESTE__', false);
         define('__VEIOID_TESTE__', '708752');
         define('__ESN_TESTE__', '1831293836');
@@ -73,11 +73,11 @@ switch ($ambiente) {
 
         define('_REGISTROS_PAGINA_', "10");
 
-// DUM 79785 - Revis„o de testes nova plataforma
+// DUM 79785 - Revis√£o de testes nova plataforma
         define('__BASE_POSTGRES__', true);
 
 // --
-// DUM 80333 - diretÛrio com arquivos NFe
+// DUM 80333 - diret√≥rio com arquivos NFe
         define('_DANFEDIR_', '/var/www/html/danfe_nfe/');
 // --
 
@@ -90,7 +90,7 @@ switch ($ambiente) {
         define('_API_TPMS_', 'https://tpms-last-information-v1-dev-core-fleets.app-dev.sascar.com.br/tpms-last-information/client/%d/getByVehicleId/%d');
 
         /*
-        * DefiniÁ„o de vari·veis para CargoTracck
+        * Defini√ß√£o de vari√°veis para CargoTracck
         */
         define('_TEMPOESPERAATIVACAO_', 10);
         define('_URLAUTENTICACAO_', 'http://hom.cargotracck.com.br/api/ws/login');
@@ -102,25 +102,25 @@ switch ($ambiente) {
         define('_CPFDESATIVACAO_', "186.251.023-79");
         define('_URLCALLBACK_', _PROTOCOLO_ . _URLINTRA_ . 'callback_ct.php');
 
-# ******** URL IntegraÁ„o WS Sasweb ********
+# ******** URL Integra√ß√£o WS Sasweb ********
         define('_WS_SASWEB_', 'http://backdev1.sascar.com.br/');
 
         /*
-        * DefiniÁ„o das configuraÁıes do serviÁo de mapa
+        * Defini√ß√£o das configura√ß√µes do servi√ßo de mapa
         */
         define('_IP_SERVICO_MAPA_', '172.16.16.59');
         define('_PORTA_SERVICO_MAPA_', '8080');
 
-        define('_EMAIL_TESTE_', 'teste_desenv@sascar.com.br'); // ATEN«√O!!! N√O ALTEERAR O E-MAIL DE TESTES!!!
+        define('_EMAIL_TESTE_', 'teste_desenv@sascar.com.br'); // ATEN√á√ÉO!!! N√ÉO ALTEERAR O E-MAIL DE TESTES!!!
 
         /*
-        * DefiniÁ„o WS DECARTA (Retorna endereÁo por coordenadas)
+        * Defini√ß√£o WS DECARTA (Retorna endere√ßo por coordenadas)
         */
         define('_REVGEO_DECARTA_', 'http://revgeowebdev1.sascar.com.br/revgeoWeb-webapp/RevGeo?type=xml&x=$long2&y=$lat2&type=xml');
 
 
         /*
-        * DefiniÁ„o do WS do Google Maps (em teste usar o IP fixo porque o DNS est· com problema)
+        * Defini√ß√£o do WS do Google Maps (em teste usar o IP fixo porque o DNS est√° com problema)
         */
         define('_URL_GOOGLE_MAPS_', 'http://revgeowebdev1.sascar.com.br/revgeoWeb-webapp/RevGeo');
 
@@ -189,7 +189,7 @@ switch ($ambiente) {
         define('_ADCONFIG_S2_MUSER_', 'teste');
         define('_ADCONFIG_S2_MPASS_', 'sascar123!@');
         /*
-         * DefiniÁ„o de vari·veis para API que disponibiliza dados do boleto
+         * Defini√ß√£o de vari√°veis para API que disponibiliza dados do boleto
          */
         define('_API_USER_', 'SASCAR');
         define('_API_SENHA_', 'S4SC4R2019');
@@ -202,12 +202,12 @@ switch ($ambiente) {
         define('_XMLRPCGERAL_'  , "http://hom1.xmlrpc.sascar.com.br/xmlrpc/enviar_comando_geral");
         define("_AMBIENTE_", "HOMOLOGACAO");
 
-        # Define endereÁo do WS do SASINTEGRA
+        # Define endere√ßo do WS do SASINTEGRA
         # Define do endereco do SASINTEGRAV3
         define('_SASINTEGRAV3_', 'http://sasintegrahom1.sascar.com.br/SasIntegra/SasIntegraWSService?wsdl');
         define('_SASINTEGRA_', 'http://10.1.101.4:7010/SasIntegra/SasIntegraWSService?WSDL');
 
-        # ******** URL IntegraÁ„o WS Sasweb ********
+        # ******** URL Integra√ß√£o WS Sasweb ********
         define('_WS_SASWEB_', 'http://backendhom1.sascar.com.br/unificado_backend/');
 
         # Define o login para o teste de teclado
@@ -238,7 +238,7 @@ switch ($ambiente) {
 
         define('_REGISTROS_PAGINA_'         , "10");
 
-        // DUM 79785 - Revis„o de testes nova plataforma
+        // DUM 79785 - Revis√£o de testes nova plataforma
         define('__BASE_POSTGRES__', true);
 
         // --
@@ -249,11 +249,11 @@ switch ($ambiente) {
 
         // DEFINE dos Servidores de Comandos e Binario
         define('_SERVIDOR_COMANDOS_', '10.1.110.140');    // DEV
-//        define('_SERVIDOR_COMANDOS_', '10.1.101.20');    // HomologaÁ„o
-        define('_SERVIDOR_BINARIO_', '10.1.101.17');     // HomologaÁ„o
+//        define('_SERVIDOR_COMANDOS_', '10.1.101.20');    // Homologa√ß√£o
+        define('_SERVIDOR_BINARIO_', '10.1.101.17');     // Homologa√ß√£o
 
         /*
-        * DefiniÁ„o de vari·veis para CargoTracck
+        * Defini√ß√£o de vari√°veis para CargoTracck
         */
         define('_TEMPOESPERAATIVACAO_', 10);
         define('_URLAUTENTICACAO_',    'http://hom.cargotracck.com.br/api/ws/login');
@@ -271,13 +271,13 @@ switch ($ambiente) {
         define('__PLACA_TESTE__', '0002ENG');
 
         /*
-        * DefiniÁ„o WS DECARTA (Retorna endereÁo por coordenadas)
+        * Defini√ß√£o WS DECARTA (Retorna endere√ßo por coordenadas)
         */
         define('_REVGEO_DECARTA_', 'http://10.1.101.5:8010/revgeoWeb-webapp/RevGeo?type=xml&x=$long2&y=$lat2&type=xml');
 
 
         /*
-        * DefiniÁ„o do WS do Google Maps (em teste usar o IP fixo porque o DNS est· com problema)
+        * Defini√ß√£o do WS do Google Maps (em teste usar o IP fixo porque o DNS est√° com problema)
         */
         define('_URL_GOOGLE_MAPS_', 'http://10.1.101.5:8010/revgeoWeb-webapp/RevGeo');
 
@@ -332,7 +332,7 @@ switch ($ambiente) {
         define('ORA_BD' , '(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=sas4-scan.sascar.com.br)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=sasdbhm.world)))');
 
         /*
-         * DefiniÁ„o de vari·veis para API que disponibiliza dados do boleto
+         * Defini√ß√£o de vari√°veis para API que disponibiliza dados do boleto
          */
         define('_API_USER_', 'SASCAR');
         define('_API_SENHA_', 'S4SC4R2019');
