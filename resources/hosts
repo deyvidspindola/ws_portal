@@ -19,6 +19,7 @@ ff02::2	ip6-allrouters
 10.1.105.72     telemetriadev1.sascar.com.br
 
 10.1.101.21     sjpsvhx-web01 sjpsvhx-web01.sascar.com.br
+10.1.101.21     homolog-wsportal.sascar.com.br
 10.1.101.21		hom-wsprotheus.sascar.com.br
 10.1.101.26		sas4-scan.sascar.com.br
 10.1.105.69     hom1.xmlrpc.sascar.com.br

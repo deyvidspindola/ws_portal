@@ -16,13 +16,14 @@ services:
             - ./app:/var/www/html
             - ./logs:/var/www/log
             - ./modulos:/var/www/html/modulos
+            - ./intranet:/var/www/html/intranet
             - ./resources/entrypoint.sh:/tmp/entrypoint.sh:ro
             - ./resources/hosts:/etc/hosts
             - ./resources/php.ini:/etc/php5/cli/php.ini
             - ./resources/php.ini:/etc/php5/apache2/php.ini
             - ./resources/config_local.php:/var/www/html/lib/config_local.php
-            - ./resources/index.php:/var/www/html/index.php
-            - ./resources/teste_ws.php:/var/www/html/ClientesTestes/teste_ws.php
+            - ./resources/intranet/config_local.php:/var/www/html/intranet/lib/config_local.php
+            - ./resources/intranet/init.php:/var/www/html/intranet/lib/init.php
 #        healthcheck:
 #            test: curl -f http://localhost || exit 1
 #            interval: 10s

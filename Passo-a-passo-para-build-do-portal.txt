@@ -1,0 +1,54 @@
+## Passo a passo para buildar o projeto em Java ##
+
+- Tero Maven instalado na maquina
+- Ter o Java instalado na maquina na versão 8
+- Ter o arquivo settings.xml
+- Editar a tag 'localRepository' no arquivo settings.xml para o diretorio local onde está a pasta .m2
+- Importar o projeto java dentro do eclipse
+- Mudar a versão do java dentro do eclipse
+	- Botão esquedo do mouse emcima de um projeto
+	- Navegue até o menu 'Run As'
+	- Em seguida clique em 'Run Configurations'
+		 - Em Run Configurations clique na aba JRE
+		 - Selecione a opção Alternate JRE
+		 - Clique no botão Intalled JREs
+		 	- Na tela Clique em Add
+			- Selecione a opção 'Standard VM e clique em NEXT
+			- Em JRE home, cole o caminho em que a versão do Java 8 está instalada e clique em Finish
+ 			- Na tela onde mostra as versões java instaladas, remova a que está por padrão, e selecione a versão 8, Clique em 'Apply and Close'
+		- Volte a selação da versão do Java para 'Workspace default JRE'
+- Agora é preciso compilar os projetos para isso sigar os seguintes passos:
+	- Primeiro vamos compilar o projeto 'SascarPortalServicosParent' da seguinte forma que se repetira para todos os outros projetos
+		- clique com o botão esquedo emcima do projeto
+		- Navegue até o menu 'Run As'
+		- Clique em 'Maven Build...'
+		- Na Janela que abrir faça
+			- No campo 'Goals' escreva clean install
+			- Marque a opção 'Skip Tests'
+			- Clique em Apply e depois em Run
+	- Agora vamos compilar os outros projetos na seguinte order:
+		- MiddlewareServiceIntegration
+		- MiddlewareServiceDelegate
+		- IntegrationPortal
+		- PortalDataAccessLayer
+			- Nesse projeto em particular vamos editar o pom dele.
+			- Abra o arquivo Pom
+			- Procure nas dependencias por oracle adf e subistitua por
+				<dependency>
+					<groupId>com.oracle.ojdbc</groupId>
+					<artifactId>ojdbc8</artifactId>
+					<version>19.3.0.0</version>
+					<type>jar</type>
+				</dependency>
+			- Salve o arquivo e siga os passo anteriores para rodar o build
+		- SascarPortalWeb
+			- Nesse projeto vamos fazer mais uma ateraçao dentro do Run Configuration
+			- No campo 'Goals' escreva clean install
+			- Marque a opção 'Skip Tests'
+			- Clique na aba Environment
+			- Adicione o seguinte:
+				- Campo Nome => BUILD_NUMBER
+				- Campo Value => DEV_20201112
+			- Clique em Apply
+			- Depois em Run
+			

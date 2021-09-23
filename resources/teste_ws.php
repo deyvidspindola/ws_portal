@@ -37,13 +37,16 @@ ini_set("soap.wsdl_cache_enabled", "0"); //Limpa o cache
 //$client = new SoapClient('http://172.18.0.1:8000/WS166_consultarResumoConfiguracao.php?wsdl', array('trace' => 1, 'exceptions' => 1, 'soap_version' => SOAP_1_1));
 //$client = new SoapClient('http://172.18.0.1:8000/WS168_reenviarConfiguracao.php?wsdl', array('trace' => 1, 'exceptions' => 1, 'soap_version' => SOAP_1_1));
 $client = new SoapClient('http://172.18.0.1:8000/WS229_listarSensoresTpms.php?wsdl', array('trace' => 1, 'exceptions' => 1, 'soap_version' => SOAP_1_1));
+//$client = new SoapClient('http://homolog-wsportal.sascar.com.br/WS_Portal_v2.0/WS229_listarSensoresTpms.php?wsdl', array('trace' => 1, 'exceptions' => 1, 'soap_version' => SOAP_1_1));
 //$client = new SoapClient('https://desenvolvimento.sascar.com.br/sistemaWeb/WS_Portal_v2.0/autenticacao.php?wsdl', array('trace' => true, 'exceptions' => true, 'soap_version' => SOAP_1_1));
 //$client = new SoapClient('http://172.18.0.1:8000/validaCpfInstaladorRp.php?wsdl', array('trace' => 1, 'exceptions' => 1, 'soap_version' => SOAP_1_1));
+
+
 
 try {
 
     //$repoid, $cntioid, $cpf, $usuario
-    $result = $client->ListarSensoresTpms('1911', '7516', '93104944920');
+    $result = $client->ListarSensoresTpms('39411761', 'MSC0005');
 
 //    $result = $client->ReenviarConfiguracao('1911', '7516', '93104944920', '39411754', 'MSC0003');
 //    $result = $client->RecuperarTesteAutomaticoRp('1911', '39411754', '93104944920', 'N', '7516');
